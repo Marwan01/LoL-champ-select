@@ -8,6 +8,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import { SelectRoleComponent } from './select-role/select-role.component';
 import {MatSelectModule} from '@angular/material/select';
 import { SelectPowerComponent } from './select-power/select-power.component';
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { SelectPowerComponent } from './select-power/select-power.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatGridListModule,
-    MatSelectModule
+    MatSelectModule,
+    MatButtonToggleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
