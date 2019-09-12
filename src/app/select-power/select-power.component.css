@@ -16,3 +16,6 @@
   .container {
     width: inherit;
   }
+
+  .mat-checkbox-layout { white-space: normal !important; }
+
