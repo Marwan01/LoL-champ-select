@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatGridListModule} from '@angular/material/grid-list';
 import { SelectRoleComponent } from './select-role/select-role.component';
+import {MatSelectModule} from '@angular/material/select';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { SelectRoleComponent } from './select-role/select-role.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatGridListModule
+    MatGridListModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]
