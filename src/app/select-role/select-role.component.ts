@@ -17,8 +17,8 @@ export class SelectRoleComponent implements OnInit {
     {value: 'top-0', viewValue: 'Top'},
     {value: 'mid-1', viewValue: 'Mid'},
     {value: 'jungle-2', viewValue: 'Jungle'},
-    {value: 'adc-2', viewValue: 'Adc'},
-    {value: 'support-2', viewValue: 'Support'}
+    {value: 'adc-3', viewValue: 'Adc'},
+    {value: 'support-4', viewValue: 'Support'}
   ];
 
   constructor() { }
