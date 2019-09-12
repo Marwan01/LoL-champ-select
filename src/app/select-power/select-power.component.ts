@@ -6,7 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./select-power.component.css']
 })
 export class SelectPowerComponent implements OnInit {
-
+  ap = false;
+  ad = false;
+  tank = false;
+  utility = false;
   constructor() { }
 
   ngOnInit() {

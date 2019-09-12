@@ -1,0 +1,8 @@
+<h1 mat-dialog-title>Your best pick is:</h1>
+<div mat-dialog-content>
+  <h2>Garen</h2>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Ok</button>
+  <button mat-button [mat-dialog-close]="data.animal" cdkFocusInitial>Cancel</button>
+</div>

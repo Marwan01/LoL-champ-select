@@ -1,8 +1,43 @@
-<mat-grid-list cols="3" rowHeight="2:1">
-  <mat-grid-tile></mat-grid-tile>
-  <mat-grid-tile>
-    <app-select-role></app-select-role>
-    <app-select-power></app-select-power>
-  </mat-grid-tile>
-  <mat-grid-tile></mat-grid-tile>
-</mat-grid-list>
+<mat-grid-list cols = "5" rowHeight = "25vh">
+    <mat-grid-tile 
+    [colspan] = "1"
+    [rowspan] = "1">1
+    </mat-grid-tile>
+    <mat-grid-tile 
+    [colspan] = "3"
+    [rowspan] = "1"><app-select-role></app-select-role>
+    </mat-grid-tile>
+    <mat-grid-tile 
+    [colspan] = "1"
+    [rowspan] = "1">1
+    </mat-grid-tile>
+    <mat-grid-tile 
+    [colspan] = "1"
+    [rowspan] = "1">1
+    </mat-grid-tile>
+    <mat-grid-tile 
+    [colspan] = "3"
+    [rowspan] = "1"><app-select-power></app-select-power>
+    </mat-grid-tile>
+    <mat-grid-tile 
+    [colspan] = "1"
+    [rowspan] = "1">1
+    </mat-grid-tile>
+    <mat-grid-tile 
+    [colspan] = "1"
+    [rowspan] = "1">1
+    </mat-grid-tile>
+    <mat-grid-tile 
+    [colspan] = "3"
+    [rowspan] = "1"><app-select-enemy></app-select-enemy>
+    </mat-grid-tile>
+    <mat-grid-tile 
+    [colspan] = "1"
+    [rowspan] = "1">1
+    </mat-grid-tile>
+    <mat-grid-tile 
+    [colspan] = "5"
+    [rowspan] = 1> <button mat-raised-button (click)="openDialog()" color="primary">Submit</button>
+
+    </mat-grid-tile>
+ </mat-grid-list>
