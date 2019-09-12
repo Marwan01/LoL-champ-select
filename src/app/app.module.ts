@@ -9,17 +9,13 @@ import { SelectRoleComponent } from './select-role/select-role.component';
 import {MatSelectModule} from '@angular/material/select';
 import { SelectPowerComponent } from './select-power/select-power.component';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
-import { StepperComponent } from './stepper/stepper.component';
-import {MatStepperModule} from '@angular/material/stepper';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import {MatInputModule} from '@angular/material';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     SelectRoleComponent,
-    SelectPowerComponent,
-    StepperComponent
+    SelectPowerComponent
   ],
   imports: [
     BrowserModule,
@@ -27,11 +23,7 @@ import {MatInputModule} from '@angular/material';
     BrowserAnimationsModule,
     MatGridListModule,
     MatSelectModule,
-    MatButtonToggleModule,
-    MatStepperModule,
-    FormsModule,
-    ReactiveFormsModule,
-    MatInputModule
+    MatButtonToggleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
