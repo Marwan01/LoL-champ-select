@@ -9,11 +9,11 @@ import { SelectRoleComponent } from './select-role/select-role.component';
 import {MatSelectModule} from '@angular/material/select';
 import { SelectPowerComponent } from './select-power/select-power.component';
 import {MatCheckboxModule} from '@angular/material/checkbox';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms'; 
-import {MatAutocompleteModule,MatInputModule} from '@angular/material';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {MatAutocompleteModule, MatInputModule} from '@angular/material';
 import { SelectEnemyComponent } from './select-enemy/select-enemy.component';
 import {MatDialogModule} from '@angular/material/dialog';
-import {SubmitDialog} from './app.component'
+import {SubmitDialog} from './app.component';
 
 
 @NgModule({
@@ -35,7 +35,7 @@ import {SubmitDialog} from './app.component'
     ReactiveFormsModule,
     MatAutocompleteModule,
     MatInputModule,
-    MatDialogModule,
+    MatDialogModule
   ],
   entryComponents: [SubmitDialog],
   providers: [],
