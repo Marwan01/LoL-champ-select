@@ -17,6 +17,7 @@ export interface Champion {
 export class SelectEnemyComponent  {
   stateCtrl = new FormControl();
   filteredStates: Observable<Champion[]>;
+  
 
   champions: Champion[] = [
     {
