@@ -30,3 +30,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 Fetch champion counter data from https://lolcounter.com/champions/"champ_name"
 
 possibly from here too: https://na.leagueoflegends.com/en/game-info/champions/
+
+http://ddragon.leagueoflegends.com/cdn/6.24.1/data/en_US/champion.json
