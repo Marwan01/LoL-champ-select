@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {FormControl} from '@angular/forms';
 import {Observable} from 'rxjs';
 import {map, startWith} from 'rxjs/operators';
+import data from '../../assets/data.json';
 
 export interface Champion {
   icon: string;
@@ -47,6 +48,8 @@ export class SelectEnemyComponent  {
   ];
 
   constructor() {
+    console.log('Reading local json files');
+    console.log(data);
     this.filteredStates = this.stateCtrl.valueChanges
       .pipe(
         startWith(''),

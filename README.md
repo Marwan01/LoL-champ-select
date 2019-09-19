@@ -32,3 +32,6 @@ Fetch champion counter data from https://lolcounter.com/champions/"champ_name"
 possibly from here too: https://na.leagueoflegends.com/en/game-info/champions/
 
 http://ddragon.leagueoflegends.com/cdn/6.24.1/data/en_US/champion.json
+
+read json: 
+https://www.angularjswiki.com/angular/how-to-read-local-json-files-in-angular/
