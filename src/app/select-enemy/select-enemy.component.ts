@@ -2,13 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {FormControl} from '@angular/forms';
 import {Observable} from 'rxjs';
 import {map, startWith} from 'rxjs/operators';
-import data from '../../assets/data.json';
-
-export interface Champion {
-  icon: string;
-  name: string;
-  powers: string;
-}
+import data from '../../assets/datav4.json';
 
 @Component({
   selector: 'app-select-enemy',
@@ -17,35 +11,8 @@ export interface Champion {
 })
 export class SelectEnemyComponent  {
   stateCtrl = new FormControl();
-  filteredStates: Observable<Champion[]>;
-  
-
-  champions: Champion[] = [
-    {
-      name: 'Anivia',
-      powers: 'AP',
-      // https://commons.wikimedia.org/wiki/File:icon_of_Arkansas.svg
-      icon: 'https://www.mobafire.com/images/avatars/anivia-classic.png'
-    },
-    {
-      name: 'Tryndamere',
-      powers: 'AD',
-      // https://commons.wikimedia.org/wiki/File:icon_of_California.svg
-      icon: 'https://www.mobafire.com/images/avatars/tryndamere-classic.png'
-    },
-    {
-      name: 'Annie',
-      powers: 'AP',
-      // https://commons.wikimedia.org/wiki/File:icon_of_Florida.svg
-      icon: 'https://www.mobafire.com/images/avatars/annie-classic.png'
-    },
-    {
-      name: 'Leblanc',
-      powers: 'AP',
-      // https://commons.wikimedia.org/wiki/File:icon_of_Texas.svg
-      icon: 'https://www.mobafire.com/images/avatars/leblanc-classic.png'
-    }
-  ];
+  filteredStates: Observable<any>;
+  champions = data;
 
   constructor() {
     console.log('Reading local json files');
@@ -57,7 +24,7 @@ export class SelectEnemyComponent  {
       );
   }
 
-  private _filterStates(value: string): Champion[] {
+  private _filterStates(value: string) {
     const filterValue = value.toLowerCase();
 
     return this.champions.filter(state => state.name.toLowerCase().indexOf(filterValue) === 0);

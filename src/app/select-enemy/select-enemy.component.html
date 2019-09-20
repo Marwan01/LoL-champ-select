@@ -6,7 +6,7 @@
             <mat-option *ngFor="let state of filteredStates | async" [value]="state.name">
               <img class="example-option-img" aria-hidden [src]="state.icon" height="25">
               <span>{{state.name}}</span> |
-              <small>Powers: {{state.powers}}</small>
+              <small>Powers: {{state.tags}}</small>
             </mat-option>
           </mat-autocomplete>
         </mat-form-field>
