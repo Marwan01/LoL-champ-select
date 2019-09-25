@@ -1,6 +1,16 @@
-<h1 mat-dialog-title>The champion you selected is:</h1>
+<h1 mat-dialog-title>The champions who counter {{data.enemyChamp}} are:</h1>
 <div mat-dialog-content>
-  <h2>{{data.name}}</h2>
+  <p>{{data.counters}}</p>
+  <h2>Your best pick is:</h2>
+  <img aria-hidden [src]="data.bestPickIcon" height="25">
+  <h3>{{data.bestPick}}</h3><h4> {{data.description}}</h4>
+
+  <h2>Tips to counter {{data.enemyChamp}}:</h2>
+ <ul>
+    <li *ngFor="let tip of data.enemyChampTips">
+        - {{tip}}
+     </li>
+ </ul>
 </div>
 <div mat-dialog-actions>
   <button mat-button (click)="onNoClick()">Ok</button>

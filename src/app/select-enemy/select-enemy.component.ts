@@ -16,8 +16,6 @@ export class SelectEnemyComponent  {
   enemy:string;
 
   constructor() {
-    console.log('Reading local json files');
-    console.log(data);
     this.filteredStates = this.stateCtrl.valueChanges
       .pipe(
         startWith(''),

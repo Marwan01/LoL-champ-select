@@ -4,9 +4,11 @@ import {SelectEnemyComponent} from './select-enemy/select-enemy.component';
 import data from './../assets/test.json';
 
 export interface DialogData {
-  name: string;
-  icon: string;
-  tips: [];
+  enemyChamp: string;
+  counters: string[];
+  bestPick: string;
+  bestPickIcon: string;
+  enemyChampTips: string[];
   description: string;
   // add stats
 }
@@ -20,40 +22,42 @@ export class AppComponent {
   champions = data;
   selectedEnemy : string;
   @ViewChild(SelectEnemyComponent, {static: true}) enemy: SelectEnemyComponent;
-  // ngAfterViewInit() {
-  //   this.getChildProperty();
-  // }
-  // getChildProperty() {
-  //  this.champions = this.enemy.champions;
-  // }
-  name: string;
-  icon: string;
-  tips: [];
-  description: string;
+
 
   constructor(public dialog: MatDialog) {}
 
   openDialog(): void {
     this.selectedEnemy = this.enemy.enemy;
-    console.log(this.findEnemyCounters(this.selectedEnemy))
+    let counters: string[];
+    let enemyChampTips: string[];
+    let bestPickName: string;
+    this.champions.forEach(element => {
+      if(element.name === this.selectedEnemy) {
+        counters = element.counters;
+        enemyChampTips = element.tips;
+        bestPickName = element.counters[0];
+      }
+    });
+    let bestPick = this.findChamp(bestPickName); // to fix ( dons't work)
+    console.log(bestPickName)
     const dialogRef = this.dialog.open(SubmitDialog, {
-      width: '250px',
-      data: {name: this.selectedEnemy, icon: this.icon, tips: this.tips, description: this.description}
+      width: '50vh',
+      height: '50vh',
+      data: {enemyChamp: this.selectedEnemy, counters: counters, bestPick: bestPickName,  enemyChampTips:  enemyChampTips , bestPickIcon: 'https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Akali.png', description: 'icon and description are currently hardcoded'}
     });
 
     dialogRef.afterClosed().subscribe(result => {
-      console.log('The dialog was closed');
+      // console.log('The dialog was closed');
       // this.name = result;
     });
   }
-  findEnemyCounters(champ) : string {
-    this.champions.find(item => {
-      if(item.name == champ)
-        console.log('found')
-        return item.counters[0]
+
+  findChamp(champName) {
+    return this.champions.find((e) => {
+      if(e.name === champName) {
+        return e;
+      }
     })
-    return 'not found'
-      
   }
 }
 
