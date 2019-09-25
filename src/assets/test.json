@@ -1,0 +1,41 @@
+[{
+	"name": "Aatrox",
+	"strongagainst": ["Darius", "Yasuo", "Ryze", "Garen", "MasterYi", "Akali", "Hecarim", "Katarina", "Talon", "Jayce", "Vladimir", "Pantheon"],
+	"counters": ["Jax", "Teemo", "Renekton", "Riven", "Fiora", "Pantheon", "Tryndamere", "Nasus", "Irelia", "Wukong", "Darius", "Jayce"],
+	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Aatrox.png",
+	"tips": ["Killing him when his resource bar is low will make him revive with much lower health.\n", "Attack speed reduction items/skills are great against him as most of his damage comes from auto attacking.", "Try to avoid his Dark Flight's center of impact to avoid getting knocked up.\n"],
+	"description": "The Darkin Blade",
+	"roles": ["Fighter"],
+	"lanes": ["Jungler", "Top"],
+	"stats": {
+		"health_points": "580.00 (+80.00/per level)",
+		"mana": "0.00 (+0/per level)",
+		"damage": "60.00 (+5.00/per level)",
+		"attack_range": "175.00",
+		"armor": "33.00 (+3.25/per level)",
+		"health_regen": "5.00",
+		"mana_regen": "0.00",
+		"attack_speed": "0.63",
+		"movement": "345.00"
+	}
+}, {
+	"name": "Ahri",
+	"strongagainst": ["Karthus", "Azir", "Orianna", "Gragas", "Xerath", "TwistedFate", "Katarina", "VelKoz", "Lux", "Zoe", "Diana", "Brand"],
+	"counters": ["LeBlanc", "Diana", "Swain", "Syndra", "Yasuo", "Talon", "Annie", "Malzahar", "Kassadin", "Fizz", "Akali", "Lissandra"],
+	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Ahri.png",
+	"tips": ["Stay behind minions to prevent yourself from getting charmed.\n", "In lane, punish her for missing her charm.", "Ahri's survivability is significantly decreased when her ultimate is on cooldown, so try to kill her/call for a gank when you know her ultimate is down.\n"],
+	"description": "The Nine-Tailed Fox",
+	"roles": ["Mage", "Magical Damage"],
+	"lanes": ["Mid"],
+	"stats": {
+		"health_points": "526.00 (+92.00/per level)",
+		"mana": "418.00 (+25/per level)",
+		"damage": "53.04 (+3.00/per level)",
+		"attack_range": "550.00",
+		"armor": "20.88 (+3.50/per level)",
+		"health_regen": "6.50",
+		"mana_regen": "8.00",
+		"attack_speed": "0.63",
+		"movement": "330.00"
+	}
+}]
