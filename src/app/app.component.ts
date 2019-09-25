@@ -1,9 +1,14 @@
-import {Component, Inject} from '@angular/core';
+import {Component, Inject, ViewChild} from '@angular/core';
 import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material/dialog';
+import {SelectEnemyComponent} from './select-enemy/select-enemy.component';
+import data from './../assets/test.json';
 
 export interface DialogData {
-  animal: string;
   name: string;
+  icon: string;
+  tips: [];
+  description: string;
+  // add stats
 }
 
 @Component({
@@ -12,25 +17,47 @@ export interface DialogData {
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ChampSelect';
-  animal: string;
+  champions = data;
+  selectedEnemy : string;
+  @ViewChild(SelectEnemyComponent, {static: true}) enemy: SelectEnemyComponent;
+  // ngAfterViewInit() {
+  //   this.getChildProperty();
+  // }
+  // getChildProperty() {
+  //  this.champions = this.enemy.champions;
+  // }
   name: string;
+  icon: string;
+  tips: [];
+  description: string;
 
   constructor(public dialog: MatDialog) {}
 
   openDialog(): void {
+    this.selectedEnemy = this.enemy.enemy;
+    console.log(this.findEnemyCounters(this.selectedEnemy))
     const dialogRef = this.dialog.open(SubmitDialog, {
       width: '250px',
-      data: {name: this.name, animal: this.animal}
+      data: {name: this.selectedEnemy, icon: this.icon, tips: this.tips, description: this.description}
     });
 
     dialogRef.afterClosed().subscribe(result => {
       console.log('The dialog was closed');
-      this.animal = result;
+      // this.name = result;
     });
   }
-
+  findEnemyCounters(champ) : string {
+    this.champions.find(item => {
+      if(item.name == champ)
+        console.log('found')
+        return item.counters[0]
+    })
+    return 'not found'
+      
+  }
 }
+
+
 
 @Component({
   selector: 'submit-dialog',
