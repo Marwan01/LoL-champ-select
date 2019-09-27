@@ -38,13 +38,12 @@ for el in tqdm(data):
         COUNTERS.append(a)
     el["counters"]=COUNTERS
     
-    if name == "MasterYi" or name == "MissFortune":
-        url_icon = "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/"+name+".png"
-        el['icon'] = url_icon
-        print(name)
-    else:
-        url_icon = "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/"+name.capitalize()+".png"
-        el['icon'] = url_icon
+    icon_url = str(soup.find(class_ = 'left champ-img'))
+    beg = icon_url.rfind("url")+4
+    end = icon_url.rfind("png")+3
+    el['icon']=icon_url[beg:end]
+    icon_url = requests.get(el['icon'])
+    assert icon_url.status_code == 200
     
     TIPS=[]
     TIPS_list = soup.find(class_='champ-tips')
