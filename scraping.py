@@ -16,6 +16,7 @@ for champion in champions_links:
 
 for el in tqdm(data):
     name = el["name"]
+    
     url = url='https://lolcounter.com/champions/'+name
     page = requests.get(url)
     soup = BeautifulSoup(page.text, 'html.parser')
@@ -36,10 +37,14 @@ for el in tqdm(data):
         a = regex.sub('', counter.text)
         COUNTERS.append(a)
     el["counters"]=COUNTERS
-
     
-    url_icon = "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/"+name.capitalize()+".png"
-    el['icon'] = url_icon
+    if name == "MasterYi" or name == "MissFortune":
+        url_icon = "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/"+name+".png"
+        el['icon'] = url_icon
+        print(name)
+    else:
+        url_icon = "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/"+name.capitalize()+".png"
+        el['icon'] = url_icon
     
     TIPS=[]
     TIPS_list = soup.find(class_='champ-tips')
