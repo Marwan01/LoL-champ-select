@@ -1,7 +1,7 @@
 [{
 	"name": "Aatrox",
-	"strongagainst": ["Darius", "Yasuo", "Ryze", "MasterYi", "Garen", "Akali", "Hecarim", "Katarina", "Talon", "Jayce", "Pantheon", "Vladimir"],
-	"counters": ["Jax", "Teemo", "Renekton", "Riven", "Pantheon", "Fiora", "Tryndamere", "Nasus", "Irelia", "Wukong", "Darius", "Jayce"],
+	"strongagainst": ["Darius", "Yasuo", "Ryze", "Garen", "MasterYi", "Akali", "Hecarim", "Katarina", "Talon", "Jayce", "Pantheon", "Vladimir"],
+	"counters": ["Jax", "Teemo", "Renekton", "Riven", "Fiora", "Pantheon", "Tryndamere", "Nasus", "Irelia", "Wukong", "Darius", "Jayce"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Aatrox.png",
 	"tips": ["Killing him when his resource bar is low will make him revive with much lower health.\n", "Attack speed reduction items/skills are great against him as most of his damage comes from auto attacking.", "Try to avoid his Dark Flight's center of impact to avoid getting knocked up.\n"],
 	"description": "The Darkin Blade",
@@ -41,7 +41,7 @@
 }, {
 	"name": "Akali",
 	"strongagainst": ["Yasuo", "Teemo", "Nidalee", "Karthus", "VelKoz", "Fizz", "Ezreal", "Yasuo", "TwistedFate", "Ahri", "Syndra", "Ziggs"],
-	"counters": ["LeeSin", "Annie", "Mordekaiser", "Garen", "Diana", "Rumble", "Nidalee", "Renekton", "Malzahar", "Swain", "LeBlanc", "Kennen"],
+	"counters": ["LeeSin", "Annie", "Garen", "Diana", "Mordekaiser", "Rumble", "Nidalee", "Renekton", "Malzahar", "Swain", "LeBlanc", "Kennen"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Akali.png",
 	"tips": ["After level 6, try to prevent her use of Mark of the Assassin, as she can proc it twice using her dashes.", "Akali will still be hit by AOE abilities while inside her shroud.\n", "Picking a stealth reveal champion such as Lee Sin, will make things much harder for Akali as she will not be able to her shroud as freely.\n"],
 	"description": "The Fist of Shadow",
@@ -80,8 +80,8 @@
 	}
 }, {
 	"name": "Amumu",
-	"strongagainst": ["Blitzcrank", "Yasuo", "Graves", "Jax", "Renekton", "Katarina", "Olaf", "Ahri", "Blitzcrank", "Teemo", "Malphite", "Garen"],
-	"counters": ["Shyvana", "LeeSin", "Ekko", "Shaco", "Vi", "DrMundo", "MasterYi", "Tryndamere", "Elise", "Olaf", "KhaZix", "Irelia"],
+	"strongagainst": ["Blitzcrank", "Yasuo", "Graves", "Jax", "Renekton", "Katarina", "Olaf", "Blitzcrank", "Ahri", "Teemo", "Malphite", "Garen"],
+	"counters": ["Shyvana", "LeeSin", "Ekko", "Shaco", "Vi", "DrMundo", "MasterYi", "Tryndamere", "Elise", "KhaZix", "Olaf", "Irelia"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Amumu.png",
 	"tips": ["Try not to bunch up against his AOE CC ultimate.", "Use ranged attacks to kite him around to avoid all of his AoE Damage.\n", "If you can, invade his jungle and steal his blue buff, Amumu consumes a lot of mana while clearing at early levels, so he wont have enough mana to gank or farm."],
 	"description": "The Sad Mummy",
@@ -160,7 +160,7 @@
 	}
 }, {
 	"name": "AurelionSol",
-	"strongagainst": ["Illaoi", "Zoe", "Taric", "Riven", "Evelynn", "Annie", "Veigar", "Nasus", "Udyr", "Anivia", "Yasuo", "Malzahar"],
+	"strongagainst": ["Illaoi", "Taric", "Zoe", "Riven", "Evelynn", "Annie", "Veigar", "Nasus", "Udyr", "Anivia", "Ryze", "Yasuo"],
 	"counters": ["Zed", "Yasuo", "Zoe", "Fizz", "Ziggs", "Alistar", "Kassadin", "KhaZix", "Katarina", "Ekko", "Orianna", "Ahri"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Aurelionsol.png",
 	"tips": ["Handle the distance from his stars, try to put him under tower, pick a champion that have a strong push, so if he goes to a roaming, he lose waves."],
@@ -200,7 +200,7 @@
 	}
 }, {
 	"name": "Bard",
-	"strongagainst": ["Urgot", "Garen", "Nunu", "Jhin", "Rakan", "Ashe", "Yorick", "TwistedFate", "Kindred", "Yasuo", "Rakan", "Leona"],
+	"strongagainst": ["Urgot", "Garen", "Nunu", "Jhin", "Rakan", "Yorick", "Ashe", "TwistedFate", "Kindred", "Rakan", "Yasuo", "Leona"],
 	"counters": ["Morgana", "Sivir", "Teemo", "Thresh", "Blitzcrank", "Xayah", "Camille", "Corki", "Thresh", "Ekko", "Soraka", "JarvanIV"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Bard.png",
 	"tips": ["Don't ban bard so the enemy team can pick him and you can collect your free win", "Dont stay in group of minions ,so he can't stun you.", "Don't follow him through his \"Magical Journey\" ability without hesitation if you do not have vision of the other side, it could be a trap."],
@@ -261,7 +261,7 @@
 }, {
 	"name": "Braum",
 	"strongagainst": ["Caitlyn", "Blitzcrank", "MissFortune", "Galio", "Lucian", "Leona", "Thresh", "Ezreal", "Caitlyn", "Taric", "Jinx", "Corki"],
-	"counters": ["Morgana", "Zyra", "Leona", "Lulu", "Karma", "Soraka", "Alistar", "Vayne", "Nami", "Sona", "Janna", "Teemo"],
+	"counters": ["Morgana", "Zyra", "Leona", "Lulu", "Karma", "Soraka", "Alistar", "Vayne", "Nami", "Janna", "Sona", "Teemo"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Braum.png",
 	"tips": ["Braum must land Winter's Bite or a basic attack to start Concussive Blows. If you get marked, exit combat range before getting hit 3 more times to avoid the stun.", "Unbreakable gives Braum extremely strong directional defense, either wait until it is down or outposition the ability.", "Avoid grouping up in a line so Braums ult won't hit a lot of your team."],
 	"description": "The Heart of the Freljord",
@@ -300,7 +300,7 @@
 	}
 }, {
 	"name": "Camille",
-	"strongagainst": ["Yasuo", "Yasuo", "Gangplank", "Bard", "Darius", "Riven", "Yorick", "Jayce", "Kalista", "Garen", "JarvanIV", "Tryndamere"],
+	"strongagainst": ["Yasuo", "Yasuo", "Gangplank", "Bard", "Darius", "Riven", "Yorick", "Jayce", "Kalista", "JarvanIV", "Garen", "Tryndamere"],
 	"counters": ["Garen", "Teemo", "Riven", "Poppy", "Fiora", "Kled", "Illaoi", "Jax", "Renekton", "Nasus", "TahmKench", "Ornn"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Camille.png",
 	"tips": ["dont die"],
@@ -321,7 +321,7 @@
 }, {
 	"name": "Cassiopeia",
 	"strongagainst": ["Ryze", "Mordekaiser", "Swain", "Nunu", "Katarina", "Yasuo", "Vladimir", "Fizz", "Soraka", "Ekko", "Akali", "Zed"],
-	"counters": ["Galio", "Orianna", "LeBlanc", "Diana", "Lux", "Fizz", "Talon", "Veigar", "Syndra", "Annie", "Zed", "Katarina"],
+	"counters": ["Galio", "Orianna", "LeBlanc", "Lux", "Diana", "Fizz", "Talon", "Veigar", "Syndra", "Annie", "Zed", "Katarina"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Cassiopeia.png",
 	"tips": ["Try to turn around when you see her ultimate being cast to avoid being stunned. ", "Dodge her Noxious Blast, as she will continue to use her Twin Fang on you several times until the poison runs out.\n", "Don't dive, Even if she doesn't have ult up and don't underestimate her damage potential early game. "],
 	"description": "The Serpent's Embrace",
@@ -381,7 +381,7 @@
 }, {
 	"name": "Darius",
 	"strongagainst": ["Yasuo", "Riven", "Nasus", "Wukong", "Irelia", "Fiora", "Garen", "Pantheon", "DrMundo", "Malphite", "Gnar", "Shen"],
-	"counters": ["Yorick", "Kayle", "Jayce", "Teemo", "Zed", "Jax", "Aatrox", "Renekton", "Pantheon", "XinZhao", "Gnar", "Elise"],
+	"counters": ["Yorick", "Jayce", "Kayle", "Teemo", "Zed", "Jax", "Aatrox", "Renekton", "Pantheon", "XinZhao", "Gnar", "Elise"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Darius.png",
 	"tips": ["Once his Apprehend is on cooldown, he is incredibly easy to kite.\n", "Denying him a reset on his ultimate with a shield/heal will significantly lower his damage output in a teamfight.", "Stay out of his Apprehend range if possible.\n"],
 	"description": "The Hand of Noxus",
@@ -401,7 +401,7 @@
 }, {
 	"name": "Diana",
 	"strongagainst": ["Katarina", "Fizz", "Akali", "TwistedFate", "Ahri", "LeBlanc", "Orianna", "Talon", "Ekko", "Kennen", "Tristana", "Lissandra"],
-	"counters": ["Mordekaiser", "ChoGath", "Irelia", "Heimerdinger", "Syndra", "Swain", "Riven", "Malzahar", "Karma", "Aatrox", "Ahri", "Annie"],
+	"counters": ["Mordekaiser", "ChoGath", "Syndra", "Irelia", "Heimerdinger", "Swain", "Riven", "Malzahar", "Karma", "Aatrox", "Ahri", "Annie"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Diana.png",
 	"tips": ["Dodging her Crescent Strike will lower her damage output significantly after level 6.\n", "Her Shield lasts for only a short while, so wait until it wears out and harass her after.", "By using a knock-up (e.g. Blitzcrank's Power Fist) and/or displacement (Tristana's Buster Shot) while she is using her ultimate on a marked target will deny her a reset on her ultimate.\n"],
 	"description": "Scorn of the Moon",
@@ -420,7 +420,7 @@
 	}
 }, {
 	"name": "DrMundo",
-	"strongagainst": ["Singed", "Jax", "Renekton", "Nasus", "Riven", "Maokai", "Teemo", "Fizz", "Amumu", "Tryndamere", "Irelia", "Jayce"],
+	"strongagainst": ["Singed", "Jax", "Nasus", "Renekton", "Riven", "Maokai", "Teemo", "Fizz", "Amumu", "Tryndamere", "Irelia", "Malphite"],
 	"counters": ["KogMaw", "Trundle", "Olaf", "Riven", "Shyvana", "Darius", "Fizz", "Teemo", "Aatrox", "ChoGath", "Warwick", "MissFortune"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Drmundo.png",
 	"tips": ["Ignite significantly lowers Mundo's Health regen from his passive and ultimate.\n", "If Mundo can't be bursted by your team when he turns on his ultimate, ignore him until his ultimate ends.", "Mundo ganks can easily be averted by dodging the first Cleaver.\n"],
@@ -460,8 +460,8 @@
 	}
 }, {
 	"name": "Ekko",
-	"strongagainst": ["LeeSin", "Akali", "Fiora", "Nasus", "Rengar", "Amumu", "Rengar", "Ryze", "Akali", "Orianna", "Yasuo", "Trundle"],
-	"counters": ["LeBlanc", "ChoGath", "Diana", "Tryndamere", "Heimerdinger", "XinZhao", "Yasuo", "Fizz", "Kassadin", "Cassiopeia", "Renekton", "Fiora"],
+	"strongagainst": ["Nasus", "Fiora", "Amumu", "Akali", "LeeSin", "Rengar", "Rengar", "Ryze", "Orianna", "Akali", "Yasuo", "Trundle"],
+	"counters": ["LeBlanc", "ChoGath", "Diana", "Heimerdinger", "Tryndamere", "XinZhao", "Yasuo", "Fizz", "Kassadin", "Cassiopeia", "Renekton", "Fiora"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Ekko.png",
 	"tips": ["When Ekko is low hp and you feel that he is about to use his ultimate, ignite him. This will lower the heal.", "Ekko will generally buy a Zhonyas, This allows him time to think about his combo aswell as gives his Ghost time to get right where he Zhonyad and BOOM He ults e and goes all out instantly going from 100 to 0 In like 3 seconds, Be very Careful!", "In lane, while Ekko's Timewinder is on cooldown, he is very vulnerable to poke/all-in, since all he will have is a small dash to escape. Try to get close and poke him if he misses it, but if he lands it then wait for the passive stacks to wear off."],
 	"description": "The boy who shattered time",
@@ -500,7 +500,7 @@
 	}
 }, {
 	"name": "Evelynn",
-	"strongagainst": ["Gragas", "Fiddlesticks", "Karthus", "Heimerdinger", "Nasus", "Shaco", "Talon", "Nidalee", "Fizz", "Janna", "Katarina", "Orianna"],
+	"strongagainst": ["Gragas", "Fiddlesticks", "Karthus", "Heimerdinger", "Shaco", "Nasus", "Talon", "Nidalee", "Fizz", "Katarina", "Janna", "Orianna"],
 	"counters": ["Ryze", "Reksai", "Heimerdinger", "Kassadin", "TwistedFate", "Ahri", "LeeSin", "MasterYi", "Nautilus", "Caitlyn", "Annie", "TwistedFate"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Evelynn.png",
 	"tips": ["Evelynn is vulnerable to slows after she uses her Dark Frenzy.\n", "Don't clump up, because more targets hit by her ultimate will give her a bigger shield.", "Try to place Vision Wards in typical ganking paths such as River/Tribrushes so that you can see her coming.\n"],
@@ -520,7 +520,7 @@
 	}
 }, {
 	"name": "Ezreal",
-	"strongagainst": ["Jinx", "Ashe", "Blitzcrank", "Lucian", "Thresh", "Nami", "Jinx", "KogMaw", "Xayah", "Jhin", "Fizz", "Alistar"],
+	"strongagainst": ["Jinx", "Ashe", "Blitzcrank", "Lucian", "Thresh", "Nami", "Jinx", "KogMaw", "Jhin", "Xayah", "Fizz", "Alistar"],
 	"counters": ["Draven", "Graves", "MissFortune", "Caitlyn", "Twitch", "Akali", "Kalista", "Vayne", "Sivir", "Tristana", "Corki", "LeBlanc"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Ezreal.png",
 	"tips": ["Focus him if he uses his Arcane Shift to enter teamfights.\n", "Stay behind minions so you won't get hit by his Mystic Shots.\n", "Ezreal's ultimate is a narrow AOE skillshot, so don't be clumped together in narrow jungle paths."],
@@ -560,8 +560,8 @@
 	}
 }, {
 	"name": "Fiora",
-	"strongagainst": ["Yasuo", "Gangplank", "Aatrox", "Gnar", "Rengar", "Nasus", "Jayce", "Riven", "XinZhao", "Kled", "Illaoi", "Irelia"],
-	"counters": ["Jax", "Pantheon", "Darius", "Malphite", "Renekton", "Singed", "Shen", "Riven", "Yorick", "Teemo", "Vladimir", "Kayle"],
+	"strongagainst": ["Yasuo", "Gangplank", "Aatrox", "Rengar", "Gnar", "Nasus", "Jayce", "Riven", "XinZhao", "Kled", "Illaoi", "Irelia"],
+	"counters": ["Jax", "Pantheon", "Darius", "Renekton", "Malphite", "Singed", "Shen", "Riven", "Yorick", "Teemo", "Vladimir", "Kayle"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Fiora.png",
 	"tips": ["Punish her when her Lunge is on cooldown, which is her main mobility skill.\n", "CC her when she activates her Burst of Speed, as it will go on a long cooldown after 3 seconds if she does not get any kills.", "U cant have more AD than her. Items like Thormail will be extrimely efective against her, so be tanky."],
 	"description": "The Grand Duelist",
@@ -620,7 +620,7 @@
 	}
 }, {
 	"name": "Gangplank",
-	"strongagainst": ["Malzahar", "Kassadin", "Renekton", "Nasus", "Teemo", "Elise", "Aatrox", "LeeSin", "Gnar", "Darius", "MissFortune", "Warwick"],
+	"strongagainst": ["Malzahar", "Kassadin", "Renekton", "Nasus", "Teemo", "Elise", "Aatrox", "LeeSin", "Gnar", "Darius", "MissFortune", "Katarina"],
 	"counters": ["Pantheon", "Fiora", "Riven", "Udyr", "Poppy", "Irelia", "Jax", "Renekton", "Teemo", "Garen", "Darius", "Nidalee"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Gangplank.png",
 	"tips": ["Buying early armor against Gangplank is very effective as it will lower the damage from his Parrrley and auto attacks. \n", "Avoid using suppression/stun ultimates on Gangplank because he can cure out of it by using his W(note: Urgot's ult will still cause them to switch places).", "Don't clump together crowd control on Gangplank.  His W removes all crowd control effects on him at once.  Wait until he removes scurvy, then hit hit with hard cc to lock him down."],
@@ -641,7 +641,7 @@
 }, {
 	"name": "Garen",
 	"strongagainst": ["Riven", "Nautilus", "Irelia", "Jax", "Akali", "Wukong", "Nasus", "Renekton", "Irelia", "LeeSin", "ChoGath", "Mordekaiser"],
-	"counters": ["Teemo", "Darius", "Yorick", "Elise", "Gnar", "Pantheon", "Jayce", "Fiora", "Aatrox", "Nidalee", "Fiora", "Shyvana"],
+	"counters": ["Teemo", "Yorick", "Elise", "Darius", "Gnar", "Pantheon", "Jayce", "Fiora", "Aatrox", "Nidalee", "Fiora", "Shyvana"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Garen.png",
 	"tips": ["Avoid staying in lane with low health, as Garen's ultimate will deal massive damage to a lower health target.\n", "Try your best to keep your distance against him, because his spin deals a ton of damage if he catches you with it.", "Poke down his passive so he has no regen"],
 	"description": "The Might of Demacia",
@@ -760,7 +760,7 @@
 	}
 }, {
 	"name": "Illaoi",
-	"strongagainst": ["Camille", "Blitzcrank", "Garen", "Riven", "Wukong", "Orianna", "Lux", "Gangplank", "Renekton", "Yasuo", "Jax", "Pantheon"],
+	"strongagainst": ["Camille", "Blitzcrank", "Garen", "Wukong", "Riven", "Orianna", "Lux", "Gangplank", "Renekton", "Yasuo", "Jax", "Pantheon"],
 	"counters": ["Lulu", "Tryndamere", "Darius", "JarvanIV", "Fiora", "Nasus", "Vayne", "Irelia", "Yasuo", "Olaf", "Kayn", "Ziggs"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Illaoi.png",
 	"tips": ["When she uses her E to rip out your soul make sure to either stand apart from it (in order to stop her AOE hitting you multiple times) or else leave the tether range. Note that leaving tether range will still apply her tentacle spawner onto your champion!", "Illaoi has a hard time chasing people due to a lack of good gap-closers. Pick champions with high mobility or movementspeed. (this also helps avoiding tentacle attacks)", "Avoid standing close to the tentacles she spawns as she is likely to use this chance to dunk you with her W and cause the tentacle(s) to hit you VERY hard and heal her slightly."],
@@ -800,8 +800,8 @@
 	}
 }, {
 	"name": "Ivern",
-	"strongagainst": ["Kayn", "Illaoi", "Ashe", "Jhin", "Rengar", "Jax", "Corki", "Pantheon", "Aatrox", "Taliyah", "Zed", "Elise"],
-	"counters": ["Graves", "Aatrox", "Rengar", "LeeSin", "KhaZix", "Kindred", "Illaoi", "Rumble", "Warwick", "XinZhao", "Amumu", "MasterYi"],
+	"strongagainst": ["Kayn", "Illaoi", "Ashe", "Jhin", "Rengar", "Jax", "Corki", "Pantheon", "Aatrox", "Taliyah", "Elise", "Zed"],
+	"counters": ["Graves", "Aatrox", "Rengar", "LeeSin", "KhaZix", "Illaoi", "Kindred", "Rumble", "Warwick", "XinZhao", "Amumu", "MasterYi"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Ivern.png",
 	"tips": [],
 	"description": "The Green Father",
@@ -861,7 +861,7 @@
 }, {
 	"name": "Jax",
 	"strongagainst": ["Yasuo", "Aatrox", "Fiora", "MasterYi", "XinZhao", "Zed", "Rengar", "Darius", "Riven", "Tryndamere", "Irelia", "Gangplank"],
-	"counters": ["Malphite", "Pantheon", "Singed", "Garen", "Jayce", "Renekton", "Ryze", "Nasus", "Gnar", "Teemo", "Rumble", "Shyvana"],
+	"counters": ["Malphite", "Pantheon", "Singed", "Jayce", "Renekton", "Garen", "Ryze", "Nasus", "Gnar", "Teemo", "Rumble", "Shyvana"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Jax.png",
 	"tips": ["Avoid attacking him when he turns on his Counter Strike.\n", "Try to do short trades against a Jax, as Jax excels in long extended trades because of his passive and ultimate.", "Be careful for every 3rd AA hit + empower in the same hit after 6."],
 	"description": "Grandmaster at Arms",
@@ -900,7 +900,7 @@
 	}
 }, {
 	"name": "Jhin",
-	"strongagainst": ["Xayah", "Caitlyn", "Ashe", "Xayah", "Vayne", "Varus", "Kalista", "Vayne", "Tristana", "TahmKench", "Kalista", "Draven"],
+	"strongagainst": ["Xayah", "Caitlyn", "Ashe", "Xayah", "Varus", "Vayne", "Kalista", "Vayne", "Tristana", "Draven", "Kalista", "TahmKench"],
 	"counters": ["Lucian", "MissFortune", "Vayne", "Varus", "Jinx", "Draven", "Twitch", "Ezreal", "Caitlyn", "Bard", "Kalista", "MissFortune"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Jhin.png",
 	"tips": ["His 4th shot always crits, which also grants him a short burst of speed. After the 4th shot, he needs to reload. Take advantage of this and burst him.", "Jhin has a devastating damage, but champions with great burst can deal with him more favorly.", "if he or his allies damage you, stay away from him, he can cc-root you with his Deadly Flourish (w)."],
@@ -921,7 +921,7 @@
 }, {
 	"name": "Jinx",
 	"strongagainst": ["Caitlyn", "Caitlyn", "Ashe", "Twitch", "Tristana", "KogMaw", "Jhin", "Xayah", "Vayne", "KogMaw", "Graves", "Varus"],
-	"counters": ["Ezreal", "Corki", "Sivir", "Varus", "Quinn", "Draven", "Lucian", "Tristana", "Graves", "Ashe", "Twitch", "Aatrox"],
+	"counters": ["Ezreal", "Corki", "Sivir", "Varus", "Quinn", "Draven", "Lucian", "Tristana", "Graves", "Ashe", "Aatrox", "Twitch"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Jinx.png",
 	"tips": ["Her base auto attack range is low in minigun stance, which makes her easier to harass.\r\n", "Learning her W animation will help you predict when she's about to use it.\r\n", "Her rockets deal splash damage, so hiding behind minions isn't always safe.\r\n"],
 	"description": "The Loose Cannon",
@@ -981,7 +981,7 @@
 }, {
 	"name": "Karma",
 	"strongagainst": ["Morgana", "Leona", "LeBlanc", "Vi", "Braum", "Fizz", "Diana", "Zed", "Renekton", "Vayne", "Katarina", "Karthus"],
-	"counters": ["Talon", "Veigar", "Malzahar", "Swain", "Xerath", "Nami", "Kassadin", "VelKoz", "Zac", "Garen", "Aatrox", "Fizz"],
+	"counters": ["Veigar", "Talon", "Malzahar", "Swain", "Xerath", "Nami", "Kassadin", "VelKoz", "Zac", "Garen", "Aatrox", "Fizz"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Karma.png",
 	"tips": ["Avoid letting her harass you for free, as it will lower her Mantra's cooldown.\n", "Try your best to escape from her Focused Resolve when she casts it on you, as it will root you after a short while.", "Leave the circle from her Mantra Inner Flame as it will deal bonus damage in the circle after a short duration. \n"],
 	"description": "The Enlightened One",
@@ -1061,7 +1061,7 @@
 }, {
 	"name": "Kayle",
 	"strongagainst": ["Zed", "Darius", "Fizz", "Yasuo", "Zed", "Talon", "Olaf", "Singed", "Syndra", "ChoGath", "Nasus", "Ziggs"],
-	"counters": ["Nasus", "Pantheon", "Orianna", "Annie", "XinZhao", "Anivia", "Ziggs", "Gragas", "JarvanIV", "Aatrox", "Lux", "Malzahar"],
+	"counters": ["Nasus", "Pantheon", "Annie", "XinZhao", "Orianna", "Anivia", "Ziggs", "Gragas", "JarvanIV", "Aatrox", "Lux", "Malzahar"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Kayle.png",
 	"tips": ["A target that's ulted by Kayle can still be CC'd, so you can still trap them until the Intervention duration wears off.\n", "Kayle has to naturally push the lane using her Righteous Fury, so a good jungle camp will shut down a Kayle in lane easily.\n", "Watch which build she decides to use be it AD/AP/Hybrid and build accordingly. "],
 	"description": "The Judicator",
@@ -1081,7 +1081,7 @@
 }, {
 	"name": "Kayn",
 	"strongagainst": ["Elise", "Yasuo", "Tryndamere", "MasterYi", "Illaoi", "Jax", "Aatrox", "LeeSin", "Reksai", "Pantheon", "Darius", "Camille"],
-	"counters": ["Warwick", "KhaZix", "Udyr", "Renekton", "MasterYi", "XinZhao", "LeeSin", "Kindred", "Rengar", "Olaf", "Garen", "Ivern"],
+	"counters": ["Warwick", "KhaZix", "Udyr", "MasterYi", "Renekton", "XinZhao", "LeeSin", "Kindred", "Rengar", "Olaf", "Garen", "Ivern"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Kayn.png",
 	"tips": ["Kayn has a different ganking paths. So dont put wards on ur normal spot, put it behind terrain to avoid ganks.", "Try to think about which Kayn form is best against your team. If your team is tanky, he will want to gank melee lanes, and if your team is squishy, he will gank ranged ones. Use this knowledge to countergank or ward for your team.", "Kayn relies on his transformation to gain relevance. Before he gets it, pressure him as much as possible."],
 	"description": "The Shadow Reaper",
@@ -1101,7 +1101,7 @@
 }, {
 	"name": "Kennen",
 	"strongagainst": ["Riven", "Olaf", "Renekton", "Singed", "Trundle", "Darius", "Akali", "Katarina", "Jax", "Volibear", "Nasus", "Poppy"],
-	"counters": ["Janna", "Diana", "Swain", "Yorick", "Ryze", "LeBlanc", "Mordekaiser", "Vladimir", "Irelia", "Pantheon", "Kayle", "JarvanIV"],
+	"counters": ["Janna", "Swain", "Diana", "Ryze", "Yorick", "LeBlanc", "Mordekaiser", "Vladimir", "Irelia", "Pantheon", "Kayle", "JarvanIV"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Kennen.png",
 	"tips": ["Just pick a Ground Pok\u00c3\u00a9mon. Everyone knows that Ground Pok\u00c3\u00a9mons counter Electric Pok\u00c3\u00a9mon!", "Kennen has a hard time against champions with Knock-back (e.g. Tristana Buster Shot) which prevents him from entering a fight with his Maelstrom. \n", "Step away from him when he has his Electrical Surge proc up, otherwise you'll take additional damage as well as get marked. \n"],
 	"description": "The Heart of the Tempest",
@@ -1121,7 +1121,7 @@
 }, {
 	"name": "KhaZix",
 	"strongagainst": ["Kassadin", "Ashe", "Akali", "Yasuo", "Fizz", "Singed", "Kayn", "TwistedFate", "Nidalee", "Sivir", "Nasus", "Katarina"],
-	"counters": ["LeeSin", "Jayce", "Pantheon", "Yorick", "Rengar", "Tryndamere", "Jax", "Renekton", "Fiora", "Ryze", "Riven", "Garen"],
+	"counters": ["LeeSin", "Jayce", "Pantheon", "Yorick", "Rengar", "Tryndamere", "Jax", "Renekton", "Ryze", "Fiora", "Garen", "Riven"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Khazix.png",
 	"tips": ["Try not to get yourself isolated, as he deals increased damage to isolated targets.\n", "Kha'Zix's jump ability has a long cooldown, so if he wastes it then punish him hard for it.", "Kha'Zix's Leap is a strong gap closer, especially when evolved. Try to pick champions that can CC him (e.g. Kennen, Fiddlesticks, Renekton) or disengage from him (e.g. Ezreal, Vladimir, LeBlanc) when Kha'Zix uses his Leap."],
 	"description": "The Voidreaver",
@@ -1140,7 +1140,7 @@
 	}
 }, {
 	"name": "Kindred",
-	"strongagainst": ["Kayn", "Zac", "Lux", "Irelia", "Zyra", "Volibear", "Aatrox", "TwistedFate", "Vi", "KhaZix", "Warwick", "Akali"],
+	"strongagainst": ["Kayn", "Zac", "Lux", "Irelia", "Zyra", "Volibear", "Aatrox", "TwistedFate", "Vi", "KhaZix", "Akali", "Warwick"],
 	"counters": ["LeeSin", "Diana", "Gragas", "Jax", "Vayne", "Swain", "TahmKench", "XinZhao", "Aatrox", "LeBlanc", "Reksai", "Cassiopeia"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Kindred.png",
 	"tips": ["Azir, Lee Sin and Gragas are hard counters for Kindred's ultimate. Urgot might be pretty hilarious too.", "Champions with strong displacements counter Kindred: Vayne's condem, Lee Sin's ultimate, and Poppy's charge, are just a few examples of abilities that can deny Kindred's ultimate.", "Wolf periodically hungers for the enemy's jungle camps. Keep your jungle warded, or smite wolf camp to keep your jungle safe. Punish them to deny permanent stacks, and perhaps even pick up a kill."],
@@ -1160,7 +1160,7 @@
 	}
 }, {
 	"name": "Kled",
-	"strongagainst": ["Camille", "Nasus", "Yasuo", "Jayce", "Riven", "ChoGath", "Illaoi", "Irelia", "Shen", "Darius", "Ekko", "Gangplank"],
+	"strongagainst": ["Camille", "Nasus", "Jayce", "Yasuo", "ChoGath", "Riven", "Illaoi", "Irelia", "Shen", "Darius", "Ekko", "Gangplank"],
 	"counters": ["Fiora", "Jax", "Renekton", "Gnar", "Shen", "Singed", "Teemo", "Riven", "Darius", "TahmKench", "Malphite", "Trundle"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Kled.png",
 	"tips": ["Kled has two health pools. Try not to blow big abilities when his mount is low on HP as it will ignore any excess damage. Poke him down and then blow him up when he is mountless. Also, bird can ride a bird but Graves still cant have a cigar."],
@@ -1201,7 +1201,7 @@
 }, {
 	"name": "LeBlanc",
 	"strongagainst": ["Ekko", "Ahri", "Katarina", "Ziggs", "Karthus", "VelKoz", "Orianna", "Veigar", "Brand", "Annie", "TwistedFate", "Akali"],
-	"counters": ["Galio", "Diana", "Morgana", "Syndra", "Talon", "Annie", "Mordekaiser", "Fizz", "Heimerdinger", "Zed", "Karma", "Fiddlesticks"],
+	"counters": ["Galio", "Diana", "Morgana", "Talon", "Syndra", "Annie", "Mordekaiser", "Fizz", "Heimerdinger", "Zed", "Karma", "Fiddlesticks"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Leblanc.png",
 	"tips": ["Buying a Banshee's Veil will significantly cut her damage down!\n", "disabling(silence/stun/snare/knock-up) Leblanc after she uses her Distortion will stop her from casting it again.\n", "Find out which spell she upgrade as first, Q or W. When she max. Q - push lane hard, she has no waveclear. When she max. W - stay away from range of her W all the time, try to make her Distoriton useless."],
 	"description": "The Deceiver",
@@ -1221,7 +1221,7 @@
 }, {
 	"name": "LeeSin",
 	"strongagainst": ["Akali", "Wukong", "Shaco", "KhaZix", "Kindred", "Talon", "Twitch", "Rengar", "Vi", "Nasus", "MasterYi", "Akali"],
-	"counters": ["Trundle", "Udyr", "Udyr", "Pantheon", "Renekton", "Singed", "Riven", "Garen", "Jax", "XinZhao", "Aatrox", "Ekko"],
+	"counters": ["Trundle", "Udyr", "Udyr", "Renekton", "Pantheon", "Singed", "Riven", "Garen", "Jax", "XinZhao", "Aatrox", "Ekko"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Leesin.png",
 	"tips": ["It's usually not worth chasing a Lee Sin because of how mobile his skills make him.", "Don't clump together so his ultimate will not be able to knock-up multiple allies.\n", "Try to put wards in your jungle, because lee sin can make counter jungle so hard."],
 	"description": "The Blind Monk",
@@ -1280,7 +1280,7 @@
 	}
 }, {
 	"name": "Lucian",
-	"strongagainst": ["Varus", "Jinx", "Jhin", "Tristana", "Caitlyn", "KogMaw", "Thresh", "Ashe", "Twitch", "Nasus", "Varus", "MissFortune"],
+	"strongagainst": ["Varus", "Jinx", "Jhin", "Tristana", "Caitlyn", "KogMaw", "Thresh", "Ashe", "Twitch", "Nasus", "MissFortune", "Varus"],
 	"counters": ["Vayne", "Draven", "Tristana", "Vayne", "Graves", "Caitlyn", "Ezreal", "MissFortune", "Quinn", "Sivir", "Aatrox", "Braum"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Lucian.png",
 	"tips": ["His ult can be used while he's moving, so watch out as he may try to kite you.\r\n", "His damaging skills have long range and are mostly skill shots, so awareness and good dodging skills are important.", "Watch out for his Q in lane as it can pass through minions for a longer range, try to stay to the side of the minions."],
@@ -1301,7 +1301,7 @@
 }, {
 	"name": "Lulu",
 	"strongagainst": ["Illaoi", "Katarina", "Thresh", "Leona", "Nami", "Braum", "Taric", "Akali", "Twitch", "Singed", "Zed", "Renekton"],
-	"counters": ["Syndra", "Soraka", "Sona", "Fiora", "Ziggs", "Brand", "Blitzcrank", "Morgana", "Gragas", "Azir", "Aatrox", "Talon"],
+	"counters": ["Syndra", "Soraka", "Sona", "Fiora", "Brand", "Ziggs", "Blitzcrank", "Morgana", "Gragas", "Azir", "Talon", "Aatrox"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Lulu.png",
 	"tips": ["Lulu does not have any health sustaining abilities, so try to poke her down in lane.\n", "The damage from Pix can be avoided by standing amongst creeps to intercept the damage.", "She has a very low base mana pool and MP5, so Lulu can often run into mana troubles early on if shes spamming abilities to often. If she is OOM early in the lane, abuse her before her high mana-per-level kicks in."],
 	"description": "The Fae Sorceress",
@@ -1321,7 +1321,7 @@
 }, {
 	"name": "Lux",
 	"strongagainst": ["Karthus", "Brand", "Heimerdinger", "Ryze", "Swain", "Vayne", "Cassiopeia", "Mordekaiser", "Syndra", "Annie", "Malzahar", "Viktor"],
-	"counters": ["Talon", "Gragas", "Yasuo", "Fizz", "Kassadin", "Orianna", "Diana", "Katarina", "LeBlanc", "Zed", "Ahri", "Syndra"],
+	"counters": ["Talon", "Yasuo", "Gragas", "Fizz", "Kassadin", "Orianna", "Diana", "Katarina", "LeBlanc", "Zed", "Ahri", "Syndra"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Lux.png",
 	"tips": ["Lux is very vulnerable once she misses her Light binding.\n", "Always be prepared to dodge her ultimate by side stepping away from the red line.", "Stay away from blindspots where the Lux can throw out bindings where you can't see.\n"],
 	"description": "The Lady of Luminosity",
@@ -1361,7 +1361,7 @@
 }, {
 	"name": "Malzahar",
 	"strongagainst": ["Katarina", "Yasuo", "Vladimir", "Akali", "Ahri", "Heimerdinger", "Fizz", "Zed", "Mordekaiser", "Diana", "Yasuo", "LeBlanc"],
-	"counters": ["Gangplank", "Syndra", "Morgana", "Galio", "Talon", "Annie", "Lux", "Orianna", "LeBlanc", "Diana", "VelKoz", "Brand"],
+	"counters": ["Gangplank", "Syndra", "Morgana", "Galio", "Talon", "Annie", "Lux", "Orianna", "LeBlanc", "VelKoz", "Diana", "Brand"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Malzahar.png",
 	"tips": ["Buying a Quicksilver Sash will let you stop him from suppressing you with his ultimate.", "Avoid being next to a minion marked by Malzahar's Malefic Visions - as it may spread onto you!\n", "Voidlings last 21 seconds - it's good to keep a counter on how long he will have his pet.\n"],
 	"description": "The Prophet of the Void",
@@ -1402,7 +1402,7 @@
 	"name": "MasterYi",
 	"strongagainst": ["MasterYi", "TwistedFate", "Karthus", "Lux", "Kalista", "Ashe", "Katarina", "Kayn", "Yasuo", "Heimerdinger", "Evelynn", "Amumu"],
 	"counters": ["Jax", "Rammus", "Pantheon", "ChoGath", "MasterYi", "Teemo", "Tryndamere", "LeeSin", "Aatrox", "Renekton", "Wukong", "Fiora"],
-	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Masteryi.png",
+	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/MasterYi.png",
 	"tips": ["Although Master Yi cannot be slowed during his ultimate, he can still be disabled.", "It's good to pick a champion with a disable (silence/stun/knock-up/displacements) so that you can stop Master Yi from casting his Meditate.\n", "Avoid fight him while low in health, lest he receives resets on his cooldowns for scoring a kill.\n"],
 	"description": "The Wuju Bladesman",
 	"roles": ["Physical Damage", "Assassin", "Fighter", "Magical Damage"],
@@ -1420,9 +1420,9 @@
 	}
 }, {
 	"name": "MissFortune",
-	"strongagainst": ["Ezreal", "Vayne", "Graves", "Xayah", "Soraka", "KogMaw", "Lucian", "KaiSa", "Jhin", "Quinn", "Twitch", "DrMundo"],
-	"counters": ["Tristana", "Draven", "Caitlyn", "Quinn", "Taric", "Braum", "Varus", "Caitlyn", "Lucian", "Yasuo", "Shaco", "Gangplank"],
-	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Missfortune.png",
+	"strongagainst": ["Ezreal", "Vayne", "Graves", "Xayah", "KogMaw", "Soraka", "Lucian", "KaiSa", "Jhin", "Quinn", "Twitch", "DrMundo"],
+	"counters": ["Tristana", "Draven", "Caitlyn", "Braum", "Quinn", "Taric", "Varus", "Caitlyn", "Lucian", "Yasuo", "Shaco", "Gangplank"],
+	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/MissFortune.png",
 	"tips": ["Miss Fortune is very vulnerable when she is channeling her ultimate. Either focus her or disable (stun/silence/knock-up/displacement) her.\n", "Try to keep her passive down by doing short frequent pokes and harassments.", "Avoid trading with Miss Fortune for an extended amount of time, as she will do more damage with her Impure Shots with every auto attack.\n"],
 	"description": "The Bounty Hunter",
 	"roles": ["Physical Damage", "Fighter"],
@@ -1441,7 +1441,7 @@
 }, {
 	"name": "Mordekaiser",
 	"strongagainst": ["Diana", "Fizz", "Akali", "Talon", "Kassadin", "LeBlanc", "Ryze", "Riven", "Yasuo", "Kennen", "Morgana", "Viktor"],
-	"counters": ["Zyra", "Lux", "Malzahar", "Yorick", "Garen", "Cassiopeia", "Swain", "Darius", "Ziggs", "Orianna", "Kayle", "Jax"],
+	"counters": ["Zyra", "Lux", "Malzahar", "Garen", "Yorick", "Cassiopeia", "Swain", "Darius", "Ziggs", "Orianna", "Kayle", "Jax"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Mordekaiser.png",
 	"tips": ["A Quicksilver Sash will get rid of Mordekaiser's ultimate debuff.", "Don't stand near creeps when he is about to use his Siphon of Destruction - as he will be able to push the wave and deal damage against you.\n", "Mordekaiser becomes harder to kill with his metal shield charged up. Try to kill him before he is able to regain his shield.\n"],
 	"description": "The Iron Revenant",
@@ -1461,7 +1461,7 @@
 }, {
 	"name": "Morgana",
 	"strongagainst": ["Braum", "Leona", "Blitzcrank", "LeBlanc", "Thresh", "Bard", "Malzahar", "Annie", "Akali", "Syndra", "Sion", "Rakan"],
-	"counters": ["Talon", "Karma", "Vladimir", "Fizz", "Mordekaiser", "Janna", "Katarina", "Sona", "Aatrox", "Zed", "Kassadin", "Akali"],
+	"counters": ["Talon", "Karma", "Vladimir", "Fizz", "Mordekaiser", "Janna", "Katarina", "Sona", "Aatrox", "Zed", "Akali", "Kassadin"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Morgana.png",
 	"tips": ["A Quicksilver Sash will get rid of Morgana's ultimate chains.", "Try to stay behind minions so Morgana can't hit you with her Dark Binding.\n", "Avoid sitting in Morgana's Tormented Soil for an extended amount of time. \n"],
 	"description": "Fallen Angel",
@@ -1480,7 +1480,7 @@
 	}
 }, {
 	"name": "Nami",
-	"strongagainst": ["Draven", "Urgot", "Janna", "Thresh", "Taric", "Karma", "Braum", "MissFortune", "Katarina", "Fizz", "Braum", "Annie"],
+	"strongagainst": ["Draven", "Urgot", "Janna", "Thresh", "Taric", "Karma", "Braum", "Katarina", "MissFortune", "Fizz", "Braum", "Annie"],
 	"counters": ["Lulu", "Ezreal", "Fizz", "Blitzcrank", "Morgana", "Leona", "Sona", "Alistar", "Caitlyn", "Karthus", "Thresh", "Braum"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Nami.png",
 	"tips": ["Nami's ultimate is very long, but it travels slowly. Try your best to get out of the way of the waves.\n", "It's good to back out when Nami uses Tidecaller's Blessing on herself or her AD carry, as you will take additional damage while trading.", "Nami's Aqua Prison can be cured by taking cleanse. It's also really easy to dodge with proper reaction time.\n"],
@@ -1500,7 +1500,7 @@
 	}
 }, {
 	"name": "Nasus",
-	"strongagainst": ["Zed", "Irelia", "Hecarim", "Kayle", "Wukong", "Jax", "Aatrox", "Tryndamere", "Illaoi", "Maokai", "Sion", "Yasuo"],
+	"strongagainst": ["Zed", "Irelia", "Hecarim", "Wukong", "Kayle", "Jax", "Aatrox", "Tryndamere", "Illaoi", "Maokai", "Sion", "Yasuo"],
 	"counters": ["Teemo", "Olaf", "Rumble", "Pantheon", "Ryze", "Darius", "Garen", "Fiora", "Trundle", "Vladimir", "Gnar", "Volibear"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Nasus.png",
 	"tips": ["Don't let him free farm, his Q will get stronger in late game.", "Avoid standing in his Spirit fire as it will shred your armor.\n", "Try to avoid fighting him while his ultimate is active, unless you have the clear advantage. "],
@@ -1601,7 +1601,7 @@
 }, {
 	"name": "Nunu",
 	"strongagainst": ["Heimerdinger", "Yorick", "Renekton", "Jax", "Vayne", "Teemo", "Singed", "Nasus", "Udyr", "Tryndamere", "Tryndamere", "Fiora"],
-	"counters": ["Cassiopeia", "Sona", "Riven", "Soraka", "Bard", "Kassadin", "Sivir", "Sona", "Janna", "Taric", "Nocturne", "Alistar"],
+	"counters": ["Cassiopeia", "Sona", "Riven", "Soraka", "Bard", "Kassadin", "Sivir", "Janna", "Sona", "Taric", "Nocturne", "Alistar"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Nunu.png",
 	"tips": ["It's imperative to disable (silence/stun/knock-up/displacement) him when he starts channeling his ultimate - otherwise you will take tons of damage. \n", "If you're brush checking and you're suddenly slowed, Nunu might be channeling his ultimate inside a brush.\n", "Banshee's Veil is extremely strong against a Nunu because he only has his Iceblast to stick on you."],
 	"description": "The Yeti Rider",
@@ -1620,7 +1620,7 @@
 	}
 }, {
 	"name": "Olaf",
-	"strongagainst": ["Irelia", "Nasus", "Riven", "Pantheon", "Poppy", "Shyvana", "Renekton", "DrMundo", "Malphite", "Wukong", "Yasuo", "Darius"],
+	"strongagainst": ["Irelia", "Nasus", "Riven", "Poppy", "Pantheon", "Shyvana", "Renekton", "DrMundo", "Malphite", "Wukong", "Yasuo", "Darius"],
 	"counters": ["Yorick", "Kayle", "Kennen", "Elise", "Pantheon", "Volibear", "Darius", "Fiora", "Talon", "Jax", "Jayce", "JarvanIV"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Olaf.png",
 	"tips": ["Don't blow your CC abilities when Olaf activates his ultimate, as he can't be disabled during the duration.\n", "Olaf becomes stronger with lower health. Be cautious when fighting an Olaf with low hp.\n", "Olaf can't chase you if you prevent him from catching his axes."],
@@ -1661,7 +1661,7 @@
 }, {
 	"name": "Ornn",
 	"strongagainst": ["Garen", "Camille", "Singed", "Pantheon", "Gnar", "TahmKench", "ChoGath", "Riven", "Nasus", "Riven", "Rengar", "Aatrox"],
-	"counters": ["Jax", "Fiora", "Darius", "Urgot", "Teemo", "Gnar", "Yasuo", "Jayce", "Vladimir", "Pantheon", "Veigar", "Kayle"],
+	"counters": ["Jax", "Darius", "Fiora", "Urgot", "Teemo", "Gnar", "Yasuo", "Jayce", "Vladimir", "Pantheon", "Veigar", "Kayle"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Ornn.png",
 	"tips": ["If his W is on cd try to all in on him", "If you hear his ult coming try and stun him as the ram gets on screen. He can't recast when he is stunned and it will run by."],
 	"description": "The Fire Below The Mountain",
@@ -1701,7 +1701,7 @@
 }, {
 	"name": "Poppy",
 	"strongagainst": ["Gangplank", "Riven", "Camille", "Jax", "Vi", "Nasus", "Tryndamere", "KhaZix", "KogMaw", "Renekton", "Zed", "Rengar"],
-	"counters": ["Olaf", "Teemo", "Rumble", "Renekton", "Darius", "Leona", "Irelia", "Shen", "Kennen", "Garen", "Pantheon", "Wukong"],
+	"counters": ["Olaf", "Teemo", "Renekton", "Rumble", "Darius", "Leona", "Irelia", "Shen", "Kennen", "Garen", "Pantheon", "Wukong"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Poppy.png",
 	"tips": ["Don't be next to a wall when targetted by a Poppy as her Heroic Charge will stun you.", "Avoid diving a Poppy due to her passive making her deceptively tanky.\n", "Save a disable for when she starts channeling her ultimate otherwise she will send you and your teammates far away."],
 	"description": "Keeper of the Hammer",
@@ -1760,7 +1760,7 @@
 	}
 }, {
 	"name": "Rakan",
-	"strongagainst": ["Ashe", "Jax", "Leona", "Sona", "Aatrox", "Bard", "Blitzcrank", "Lulu", "Nami", "Twitch", "Lucian", "MissFortune"],
+	"strongagainst": ["Ashe", "Jax", "Leona", "Aatrox", "Sona", "Bard", "Blitzcrank", "Lulu", "Nami", "Twitch", "MissFortune", "Soraka"],
 	"counters": ["Morgana", "Lulu", "Janna", "Leona", "Alistar", "Bard", "Leona", "Aatrox", "Karma", "Zilean", "Zyra", "Bard"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Rakan.png",
 	"tips": [],
@@ -1800,8 +1800,8 @@
 	}
 }, {
 	"name": "RekSai",
-	"strongagainst": ["Evelynn", "Nasus", "Rengar", "Rammus", "Pantheon", "Shaco", "KhaZix", "Yasuo", "Garen", "Fiora", "Kindred", "Shaco"],
-	"counters": ["Fizz", "Darius", "Irelia", "Jayce", "Gangplank", "Jayce", "Vi", "XinZhao", "Kennen", "Nunu", "Zac", "Kayn"],
+	"strongagainst": ["Evelynn", "Nasus", "Rengar", "Pantheon", "Rammus", "Shaco", "KhaZix", "Yasuo", "Garen", "Kindred", "Fiora", "Shaco"],
+	"counters": ["Fizz", "Darius", "Irelia", "Jayce", "Gangplank", "Jayce", "Vi", "XinZhao", "Nunu", "Kennen", "Zac", "Kayn"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Reksai.png",
 	"tips": ["If u kill her, she will die.", "Destroy any of her tunnels you find; this will give her less map presence, as well as anyone with teleport.", "Watch out for her fury bar, when she reaches Max her E does true damage"],
 	"description": "The Void Burrower",
@@ -1901,7 +1901,7 @@
 }, {
 	"name": "Ryze",
 	"strongagainst": ["Fizz", "Nasus", "Jax", "Renekton", "Veigar", "Pantheon", "Evelynn", "Kennen", "Shyvana", "Ahri", "Renekton", "Riven"],
-	"counters": ["Cassiopeia", "Orianna", "Xerath", "Anivia", "Brand", "Ziggs", "Mordekaiser", "Lux", "Yorick", "Irelia", "Kassadin", "Aatrox"],
+	"counters": ["Cassiopeia", "Orianna", "Xerath", "Anivia", "Ziggs", "Brand", "Mordekaiser", "Lux", "Yorick", "Irelia", "Kassadin", "Aatrox"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Ryze.png",
 	"tips": ["Ryze can outduel almost anyone in the game. Unless you're at a clear advantage, avoid fighting him 1v1.", "It is highly recommend that Ryze should be focused in teamfights first because he deals massive sustained damage, yet he is close ranged.\n", "Ryze is weak aginst pushing champions, as he does not have wave-clear capability until level 6. Try pushing against him early.\n"],
 	"description": "The Rogue Mage",
@@ -2000,7 +2000,7 @@
 	}
 }, {
 	"name": "Singed",
-	"strongagainst": ["Jax", "Fiora", "LeeSin", "Tryndamere", "Wukong", "Kled", "Irelia", "Pantheon", "Aatrox", "Garen", "Udyr", "Renekton"],
+	"strongagainst": ["Jax", "Fiora", "LeeSin", "Tryndamere", "Wukong", "Kled", "Irelia", "Pantheon", "Aatrox", "Garen", "Udyr", "Volibear"],
 	"counters": ["Teemo", "Jayce", "Kayle", "Elise", "Vladimir", "Kennen", "Gnar", "Rumble", "Pantheon", "Darius", "Yorick", "Renekton"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Singed.png",
 	"tips": ["Do not chase singed, as his poison will continuously reset against you.\n", "Don't waste your time with trying to kill a Singed unless you're certain you're able to take him down. ", "Always try to stay away from singed to avoid his use of fling.\n"],
@@ -2021,7 +2021,7 @@
 }, {
 	"name": "Sion",
 	"strongagainst": ["Annie", "Tryndamere", "LeBlanc", "Nasus", "Aatrox", "Teemo", "Talon", "Kassadin", "Irelia", "Ryze", "Talon", "Aatrox"],
-	"counters": ["Pantheon", "Garen", "Darius", "Nasus", "Morgana", "Riven", "Jax", "Teemo", "Gnar", "Ahri", "ChoGath", "Akali"],
+	"counters": ["Pantheon", "Garen", "Darius", "Morgana", "Nasus", "Riven", "Jax", "Teemo", "Gnar", "Ahri", "ChoGath", "Akali"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Sion.png",
 	"tips": ["Try to burst down Sion's shield - this will prevent the shield from dealing any damage, cutting his damage down in half.\n", "Reposition after killing him to get away from his Glory from Death.", "After Sion has died, have someone on your time stun him when he goes berserk otherwise he will chase down your team."],
 	"description": "The Undead Champion",
@@ -2060,7 +2060,7 @@
 	}
 }, {
 	"name": "Skarner",
-	"strongagainst": ["Katarina", "Warwick", "Aatrox", "Mordekaiser", "MasterYi", "Vi", "Heimerdinger", "Nautilus", "Fiora", "Riven", "Jax", "Rammus"],
+	"strongagainst": ["Katarina", "Warwick", "Aatrox", "Mordekaiser", "MasterYi", "Vi", "Heimerdinger", "Fiora", "Nautilus", "Riven", "Jax", "Azir"],
 	"counters": ["Morgana", "XinZhao", "Trundle", "Nunu", "Lulu", "Shaco", "Maokai", "Gangplank", "Cassiopeia", "Anivia", "Olaf", "Sivir"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Skarner.png",
 	"tips": ["knock-back/terrain abilities (Janna's Monsoon, Trundle's Pillar of Ice) are strong against Skarner because he will have a hard time trying to pull your allies.\n", "Try to break Skarner's shield as it will remove the bonus movespeed and attack speed that it grants him.", "It is imperative that you Flash away when a Skarner is anywhere near you, as you'll get pulled into the enemy team.\n"],
@@ -2081,7 +2081,7 @@
 }, {
 	"name": "Sona",
 	"strongagainst": ["Trundle", "Janna", "Vayne", "Lulu", "Nunu", "Morgana", "Braum", "Nami", "Alistar", "Nunu", "Rumble", "Fizz"],
-	"counters": ["Blitzcrank", "Leona", "Taric", "Thresh", "Draven", "MissFortune", "Aatrox", "Nautilus", "Akali", "Zyra", "Graves", "Talon"],
+	"counters": ["Blitzcrank", "Leona", "Taric", "Thresh", "Draven", "MissFortune", "Aatrox", "Nautilus", "Akali", "Zyra", "Graves", "Katarina"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Sona.png",
 	"tips": ["Do not clump in teamfights in a line - as the Sona will make your whole team dance!", "Sona is extremely squishy at earlier levels. Try to coordinate an assault against her early.\n", "Her Q poke doesn't target you if she can't see you, so hiding in an unwarded bush is a good way to lower her harass."],
 	"description": "Maven of the Strings",
@@ -2101,7 +2101,7 @@
 }, {
 	"name": "Soraka",
 	"strongagainst": ["Karthus", "Yasuo", "Urgot", "Wukong", "Braum", "Lulu", "Katarina", "Rammus", "Zed", "Alistar", "Nunu", "Nasus"],
-	"counters": ["Gnar", "MissFortune", "Blitzcrank", "Cassiopeia", "Tristana", "Zac", "Orianna", "Ahri", "Varus", "Ziggs", "Leona", "Fiora"],
+	"counters": ["Gnar", "MissFortune", "Blitzcrank", "Cassiopeia", "Tristana", "Zac", "Orianna", "Ahri", "Varus", "Ziggs", "Fiora", "Leona"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Soraka.png",
 	"tips": ["Always keep in mind that Soraka is able to cure all her allies in an instant. Don't get baited by this!\n", "Soraka is usually really squishy, especially after she uses her burst healing on her allies. If possible, try to target her before she's able to heal anything\n", "While Soraka no longer shreds magic resist with her Q, you still want to avoid getting hit by it as it will give her more health to use on her teammates.  Always be aware of where she's aiming."],
 	"description": "The Starchild",
@@ -2161,7 +2161,7 @@
 }, {
 	"name": "Syndra",
 	"strongagainst": ["Heimerdinger", "Orianna", "Ahri", "LeBlanc", "Ziggs", "Azir", "Diana", "Katarina", "Malzahar", "Swain", "Lissandra", "Brand"],
-	"counters": ["Fizz", "Yasuo", "Kayle", "Kassadin", "Talon", "Lux", "Akali", "Morgana", "Zed", "Xerath", "Mordekaiser", "Ahri"],
+	"counters": ["Fizz", "Yasuo", "Kayle", "Talon", "Kassadin", "Lux", "Akali", "Morgana", "Zed", "Xerath", "Mordekaiser", "Ahri"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Syndra.png",
 	"tips": ["Syndra is vulnerable after she uses her Scatter the Weak. Try to play aggressive while it's down.\n", "Avoid fighting her when your health is low as she specializes in single target damage with her ultimate.", "Avoid clumping against a Syndra as she carries a potential long range AOE stun.\n"],
 	"description": "The Dark Sovereign",
@@ -2180,8 +2180,8 @@
 	}
 }, {
 	"name": "TahmKench",
-	"strongagainst": ["Camille", "Blitzcrank", "Yasuo", "Gangplank", "Kindred", "Thresh", "Kled", "ChoGath", "Nasus", "VelKoz", "Annie", "Kayle"],
-	"counters": ["Janna", "Vayne", "Gnar", "Singed", "Teemo", "Kayle", "Jax", "Kalista", "Ornn", "Lux", "Olaf", "Ekko"],
+	"strongagainst": ["Blitzcrank", "Camille", "Yasuo", "Gangplank", "Kindred", "Thresh", "Kled", "ChoGath", "Nasus", "VelKoz", "Annie", "Kayle"],
+	"counters": ["Janna", "Vayne", "Gnar", "Singed", "Kayle", "Teemo", "Jax", "Kalista", "Ornn", "Lux", "Olaf", "Ekko"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Tahmkench.png",
 	"tips": ["Tahm Kench is a water type pokemon, so electric attacks (Kennen, Xerath) are supereffective!", "Champions with HP% damage or knock back ability are effective against him. Try to pick Vayne, Gnar or Alistar against him. Blade of the ruined king is also a good item to counter him.", "Percentage health shred or items such as Blade of the Ruined King and Liandry's Torment are very effective against Tahm Kench. His ultimate's passive grants him bonus damage on attacks based on his bonus health, so he won't stack resistances."],
 	"description": "The River King",
@@ -2221,7 +2221,7 @@
 }, {
 	"name": "Talon",
 	"strongagainst": ["Kassadin", "Lux", "Veigar", "Ahri", "LeBlanc", "Azir", "Morgana", "Ziggs", "Malzahar", "Katarina", "VelKoz", "Syndra"],
-	"counters": ["LeeSin", "Yorick", "Mordekaiser", "Pantheon", "Kayle", "Diana", "Swain", "Riven", "Fizz", "Gragas", "Pantheon", "Aatrox"],
+	"counters": ["LeeSin", "Yorick", "Mordekaiser", "Pantheon", "Diana", "Kayle", "Swain", "Riven", "Fizz", "Gragas", "Pantheon", "Aatrox"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Talon.png",
 	"tips": ["Talon is very vulnerable when his Cutthroat is on cooldown. Try to take advantage of the situation when it is on cooldown.\n", "Talon only deals Physical damage, so building armor will lower his damage output significantly.\n", "Make sure someone on your team carries a Pink ward for a teamfight to detect him during his ultimate. "],
 	"description": "The Blade's Shadow",
@@ -2261,7 +2261,7 @@
 }, {
 	"name": "Teemo",
 	"strongagainst": ["Tryndamere", "Nasus", "Garen", "Singed", "Darius", "Volibear", "Aatrox", "Gnar", "MasterYi", "Shen", "Jax", "XinZhao"],
-	"counters": ["Yorick", "Pantheon", "Zed", "Akali", "Jayce", "Rumble", "ChoGath", "Wukong", "JarvanIV", "Riven", "Renekton", "LeeSin"],
+	"counters": ["Yorick", "Pantheon", "Akali", "Jayce", "Zed", "Rumble", "ChoGath", "Wukong", "JarvanIV", "Riven", "Renekton", "LeeSin"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Teemo.png",
 	"tips": ["Avoid fighting a Teemo if you're an auto-attack based champion. His blind will mess you up.\n", "Teemo is weak against gap closers, as his Move Quick is on a long cooldown.", "Buying pink wards / Oracle's Elixir will let you clear out his incredibly annoying mushrooms.\n"],
 	"description": "The Swift Scout",
@@ -2301,7 +2301,7 @@
 }, {
 	"name": "Tristana",
 	"strongagainst": ["MissFortune", "Vayne", "Twitch", "Jinx", "Caitlyn", "Lucian", "Varus", "Ezreal", "Katarina", "Sivir", "Quinn", "Graves"],
-	"counters": ["Corki", "Draven", "Diana", "Lucian", "Vayne", "Sivir", "Twitch", "Jinx", "Caitlyn", "Veigar", "MissFortune", "Thresh"],
+	"counters": ["Corki", "Draven", "Diana", "Lucian", "Vayne", "Sivir", "Twitch", "Jinx", "Caitlyn", "MissFortune", "Veigar", "Thresh"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Tristana.png",
 	"tips": ["Avoid standing near low health creeps to not take additional damage from Tristana's Explosive shots.", "Tristana's jump can be interrupted by knock-ups and displacements (e.g. Blitz's Powerfist or Rocket Grab)\n", "Push the lane to her tower. Tristana has trouble with farming under the turret, because of Explosive Shot's passive effect."],
 	"description": "The Megling Gunner",
@@ -2360,8 +2360,8 @@
 	}
 }, {
 	"name": "TwistedFate",
-	"strongagainst": ["Ryze", "Vladimir", "Evelynn", "Lissandra", "Ziggs", "Annie", "Aatrox", "Evelynn", "Lux", "Galio", "Ahri", "Twitch"],
-	"counters": ["Fizz", "Diana", "Yasuo", "LeBlanc", "Kassadin", "Ahri", "Akali", "MasterYi", "Ziggs", "Veigar", "Syndra", "KhaZix"],
+	"strongagainst": ["Ryze", "Vladimir", "Evelynn", "Lissandra", "Ziggs", "Annie", "Aatrox", "Evelynn", "Galio", "Lux", "Ahri", "Twitch"],
+	"counters": ["Fizz", "Diana", "Yasuo", "Kassadin", "LeBlanc", "Ahri", "Akali", "MasterYi", "Ziggs", "Veigar", "Syndra", "KhaZix"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Twistedfate.png",
 	"tips": ["Twisted Fate is vulnerable when his Pick-a-card is on cooldown.", "Twisted Fate's Wild Cards are rather slow moving projectiles, so try your best to dodge them.\n", "Always keep an eye out on Twisted Fate and ward areas where he will move in order to gank other lanes.\n"],
 	"description": "The Card Master",
@@ -2380,7 +2380,7 @@
 	}
 }, {
 	"name": "Twitch",
-	"strongagainst": ["Ezreal", "Vayne", "Tristana", "Sivir", "Vayne", "Jinx", "Ashe", "Jhin", "Sejuani", "Nidalee", "Urgot", "Lucian"],
+	"strongagainst": ["Ezreal", "Vayne", "Tristana", "Sivir", "Vayne", "Jinx", "Ashe", "Jhin", "Sejuani", "Nidalee", "Lucian", "Urgot"],
 	"counters": ["Caitlyn", "Tristana", "LeeSin", "Jinx", "Quinn", "Draven", "Corki", "Lucian", "Varus", "MissFortune", "Lulu", "Aatrox"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Twitch.png",
 	"tips": ["Buying a pink ward for lane will deny him from ambushing you. \n", "Avoid clumping against a Twitch - his ultimate deals massive damage to targets in a line.", "Be careful in lane when you see the enemy support alone, Twitch might be trying a sneaky engage if the support is walking towards you."],
@@ -2401,7 +2401,7 @@
 }, {
 	"name": "Udyr",
 	"strongagainst": ["Irelia", "LeeSin", "LeeSin", "Gangplank", "Galio", "Pantheon", "Warwick", "Kayn", "Shaco", "Riven", "XinZhao", "Nocturne"],
-	"counters": ["Ashe", "Jax", "Riven", "Teemo", "Trundle", "Elise", "Kayle", "Singed", "JarvanIV", "Aatrox", "Nunu", "Pantheon"],
+	"counters": ["Ashe", "Jax", "Riven", "Trundle", "Teemo", "Elise", "Kayle", "Singed", "JarvanIV", "Aatrox", "Nunu", "Pantheon"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Udyr.png",
 	"tips": ["Pray to gods the enemy Udyr didn't watch Trick2G and his way of playing Udyr (Godyr). If the ememy did [email\u00a0protected] even if your team is 40/3.", "Pay attention to how he builds. If he decides to build damage, you can focus him and kill him easily. \n", "Since Udyr has to get into melee range to do anything, taking snares and slows do extremely well against him."],
 	"description": "The Animal Spirit",
@@ -2500,8 +2500,8 @@
 	}
 }, {
 	"name": "VelKoz",
-	"strongagainst": ["Heimerdinger", "Malzahar", "Orianna", "Teemo", "Annie", "TwistedFate", "Swain", "Ryze", "Karma", "Veigar", "Ziggs", "Brand"],
-	"counters": ["Yasuo", "LeBlanc", "Fizz", "Akali", "Katarina", "Talon", "Ahri", "Diana", "Kassadin", "Nidalee", "Zed", "Syndra"],
+	"strongagainst": ["Heimerdinger", "Malzahar", "Orianna", "Annie", "Teemo", "TwistedFate", "Swain", "Ryze", "Veigar", "Karma", "Ziggs", "Brand"],
+	"counters": ["Yasuo", "LeBlanc", "Fizz", "Akali", "Katarina", "Talon", "Ahri", "Diana", "Nidalee", "Kassadin", "Zed", "Syndra"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Velkoz.png",
 	"tips": ["Vel'Koz has a kit consisting of 4 skillshots making him very vulnerable to champions with dashes.", "Abusing his slow moving ultimate with a dash or a blink into / behind Vel'Koz.", "Save your heavy CC to interrupt his Lifeform Disintegration Ray. It hits heavily and can be the difference from winning and losing team fights."],
 	"description": "The eye of the Void",
@@ -2560,8 +2560,8 @@
 	}
 }, {
 	"name": "Vladimir",
-	"strongagainst": ["Nasus", "Singed", "Renekton", "Trundle", "Gnar", "Morgana", "Shen", "Kennen", "Malphite", "Jax", "Zed", "Katarina"],
-	"counters": ["Swain", "Malzahar", "Fiddlesticks", "JarvanIV", "XinZhao", "Irelia", "Riven", "Yorick", "Fizz", "Nidalee", "Garen", "Mordekaiser"],
+	"strongagainst": ["Nasus", "Singed", "Renekton", "Trundle", "Gnar", "Morgana", "Shen", "Malphite", "Kennen", "Jax", "Zed", "Katarina"],
+	"counters": ["Swain", "Malzahar", "XinZhao", "Fiddlesticks", "JarvanIV", "Irelia", "Riven", "Yorick", "Fizz", "Nidalee", "Garen", "Mordekaiser"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Vladimir.png",
 	"tips": ["Vladimir's ultimate can be cured by buying a Quicksilver Sash.\n", "Saving an Ignite against a Vladimir will significantly hinder his ability to sustain himself in a fight.\n", "Do not clump against a Vladimir, so that he won't be able to hit multiple people with his ultimate."],
 	"description": "The Crimson Reaper",
@@ -2581,7 +2581,7 @@
 }, {
 	"name": "Volibear",
 	"strongagainst": ["Pantheon", "Riven", "Olaf", "Nasus", "XinZhao", "Renekton", "Irelia", "Jax", "Rumble", "Fiora", "Taric", "Aatrox"],
-	"counters": ["Teemo", "Elise", "Darius", "Pantheon", "Renekton", "Jayce", "Kennen", "Garen", "Aatrox", "Vayne", "Gnar", "Kayle"],
+	"counters": ["Teemo", "Elise", "Renekton", "Darius", "Jayce", "Pantheon", "Kennen", "Garen", "Aatrox", "Vayne", "Gnar", "Kayle"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Volibear.png",
 	"tips": ["Taking Ignite will cut down Volibear's healing in half.\n", "Avoid fighting him with low health, as his bite deals additional damage the lower your health is. ", "Don't get baited by Volibear's passive as it will let him quickly heal for 30% of his maximum health.\n"],
 	"description": "The Thunder's Roar",
@@ -2600,7 +2600,7 @@
 	}
 }, {
 	"name": "Warwick",
-	"strongagainst": ["ChoGath", "Shen", "Nasus", "Kayn", "Renekton", "Jax", "DrMundo", "Singed", "Malphite", "Yasuo", "Garen", "Aatrox"],
+	"strongagainst": ["ChoGath", "Shen", "Nasus", "Kayn", "Renekton", "Jax", "DrMundo", "Singed", "Malphite", "Yasuo", "Aatrox", "Garen"],
 	"counters": ["Yorick", "Udyr", "Wukong", "Renekton", "Kayle", "Olaf", "LeeSin", "Aatrox", "Swain", "Alistar", "Nocturne", "Jax"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Warwick.png",
 	"tips": ["A Quicksilver Sash and will stop Warwick's ultimate immediately.\n", "Try to save a disable (silence/stun/knock-up/displacement) for when he uses his ultimate. \n", "Warwick heals a lot of health from his Hungering Strike - using an Ignite on him will make him heal for a lot less."],
@@ -2661,7 +2661,7 @@
 }, {
 	"name": "Xerath",
 	"strongagainst": ["Ryze", "Azir", "Heimerdinger", "Karthus", "Ziggs", "Brand", "Yasuo", "Annie", "Syndra", "Veigar", "Lissandra", "Nidalee"],
-	"counters": ["Ahri", "Zed", "Fizz", "Syndra", "LeBlanc", "Kassadin", "Gragas", "Katarina", "LeBlanc", "Aatrox", "Diana", "Talon"],
+	"counters": ["Ahri", "Zed", "Fizz", "Syndra", "Kassadin", "LeBlanc", "Gragas", "Katarina", "LeBlanc", "Aatrox", "Diana", "Talon"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Xerath.png",
 	"tips": ["Champions that have great gap closing abilities are strong against the long range Xerath.\n", "Buying a Banshee's Veil does extremely well against a Xerath.", "Shocking Orb's stun duration increases with distance traveled. Since the ability is his only form of hard CC, trading in close proximity to him keeps him from using it to its full potential."],
 	"description": "The Magus Ascendant",
@@ -2680,7 +2680,7 @@
 	}
 }, {
 	"name": "XinZhao",
-	"strongagainst": ["Vladimir", "Jayce", "Ekko", "Darius", "Kayle", "Yasuo", "Rumble", "Riven", "Yorick", "Sejuani", "Fiddlesticks", "LeeSin"],
+	"strongagainst": ["Vladimir", "Jayce", "Ekko", "Kayle", "Darius", "Yasuo", "Rumble", "Riven", "Yorick", "Sejuani", "Fiddlesticks", "LeeSin"],
 	"counters": ["Jax", "Pantheon", "Malphite", "Fiora", "Volibear", "Teemo", "Malphite", "Renekton", "Nocturne", "Udyr", "Wukong", "Garen"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Xinzhao.png",
 	"tips": ["Prevent him from finishing his Three Talon Strikes to deny him a knock-up as well as a cooldown reduction on his abilities. ", "Xin Zhao gains additional armor/magic resist with more units struck from his ultimate. Try not to clump when a Xin wants to initiate!\n", "Xin is an auto attack reliant champion who does primarily attack damage. An early Warden's Mail will make laning vs him much easier"],
@@ -2701,7 +2701,7 @@
 }, {
 	"name": "Yasuo",
 	"strongagainst": ["VelKoz", "Nidalee", "Gragas", "Ahri", "Lux", "Ziggs", "Gragas", "TwistedFate", "Syndra", "Ekko", "Gnar", "Kassadin"],
-	"counters": ["Jax", "Fiora", "Swain", "Kayle", "Malzahar", "Darius", "Akali", "Riven", "Annie", "Soraka", "Fizz", "XinZhao"],
+	"counters": ["Jax", "Fiora", "Malzahar", "Kayle", "Swain", "Darius", "Akali", "Riven", "Annie", "Soraka", "Fizz", "XinZhao"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Yasuo.png",
 	"tips": ["Yasuo's shield from Resolve lasts only 2 seconds. Dealing damage to him will trigger it. Wait it out, then engage.\r\n", "Yasuo is at his weakest just after he has launched a whirlwind. Engage at that point.\r\n", "Fighting Yasuo away from minions and neutral monsters will limit his mobility. His skirmish potential is very good as well because of this, so be careful when initiating 2v2 and 3v3's. "],
 	"description": "The Unforgiven",
@@ -2741,7 +2741,7 @@
 }, {
 	"name": "Zac",
 	"strongagainst": ["Malphite", "Jax", "Katarina", "Soraka", "Rammus", "Garen", "Renekton", "Singed", "Riven", "Zed", "Nocturne", "Yasuo"],
-	"counters": ["Vi", "Zilean", "Yorick", "Vladimir", "Garen", "Fizz", "Renekton", "Riven", "Darius", "Kindred", "Jayce", "Vayne"],
+	"counters": ["Vi", "Zilean", "Yorick", "Vladimir", "Garen", "Fizz", "Renekton", "Riven", "Kindred", "Darius", "Jayce", "Vayne"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Zac.png",
 	"tips": ["Zac's goos can be crushed by stepping on them, denying him health regeneration.\n", "Zac's passive blobs can be smited. Kill them fast so that he won't be able to revive.\n", "Zac can be interrupted while casting his Elastic Slingshot."],
 	"description": "The Secret Weapon",
@@ -2801,7 +2801,7 @@
 }, {
 	"name": "Zilean",
 	"strongagainst": ["Zac", "Yasuo", "Zed", "Darius", "Yasuo", "Fizz", "Katarina", "Malzahar", "TwistedFate", "Akali", "LeBlanc", "Braum"],
-	"counters": ["Sivir", "Lux", "Blitzcrank", "Morgana", "Annie", "Fizz", "Xerath", "Nocturne", "Zed", "Heimerdinger", "Soraka", "Kassadin"],
+	"counters": ["Sivir", "Lux", "Blitzcrank", "Morgana", "Annie", "Fizz", "Xerath", "Nocturne", "Heimerdinger", "Zed", "Soraka", "Kassadin"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Zilean.png",
 	"tips": ["Be careful of his level 2 all-ins, as he has one of the strongest level 2 bursts in the game.\n", "It's often a good idea to surprise a Zilean with disables and kill him before he can cast his ultimate.", "You and your allies should decide if they should let a target hit by Zilean's ultimate live until the duration is over, or just kill and let the target revive quickly.\n"],
 	"description": "The Chronokeeper",
@@ -2840,7 +2840,7 @@
 	}
 }, {
 	"name": "Zyra",
-	"strongagainst": ["Mordekaiser", "Braum", "Thresh", "Leona", "Ryze", "Karthus", "Annie", "Janna", "Kassadin", "Heimerdinger", "Kayle", "Taric"],
+	"strongagainst": ["Mordekaiser", "Braum", "Thresh", "Leona", "Ryze", "Karthus", "Annie", "Janna", "Kassadin", "Kayle", "Heimerdinger", "Taric"],
 	"counters": ["Fizz", "Katarina", "Anivia", "Talon", "LeBlanc", "Diana", "Kassadin", "Akali", "Zed", "Lux", "Ahri", "Gragas"],
 	"icon": "https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Zyra.png",
 	"tips": ["Zyra's seeds can be crushed by stepping on them. \n", "Zyra's plants need to take 3 hits from any source of damage. Minions will deal 1/2 damage.\n", "Step away from Zyra's ultimate - after a short delay, it will knock you up!"],
