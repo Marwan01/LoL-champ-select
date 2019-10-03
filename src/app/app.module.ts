@@ -14,6 +14,8 @@ import {MatAutocompleteModule, MatInputModule} from '@angular/material';
 import { SelectEnemyComponent } from './select-enemy/select-enemy.component';
 import {MatDialogModule} from '@angular/material/dialog';
 import {SubmitDialog} from './app.component';
+import { ChampProfileComponent } from './champ-profile/champ-profile.component';
+import {MatTableModule} from '@angular/material/table';
 
 
 @NgModule({
@@ -22,7 +24,8 @@ import {SubmitDialog} from './app.component';
     SelectRoleComponent,
     SelectPowerComponent,
     SelectEnemyComponent,
-    SubmitDialog
+    SubmitDialog,
+    ChampProfileComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +38,8 @@ import {SubmitDialog} from './app.component';
     ReactiveFormsModule,
     MatAutocompleteModule,
     MatInputModule,
-    MatDialogModule
+    MatDialogModule,
+    MatTableModule
   ],
   entryComponents: [SubmitDialog],
   providers: [],
