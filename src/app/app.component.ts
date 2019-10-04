@@ -56,5 +56,9 @@ export class AppComponent {
   selectedEnemy : string;
   dataSource = ELEMENT_DATA;
 
+  getCounters(champName) {
+    this.enemyChamp = champName;
+    console.log(this.enemyChamp);
+  }
 
 }
