@@ -10,14 +10,12 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {MatAutocompleteModule, MatInputModule} from '@angular/material';
 import {MatDialogModule} from '@angular/material/dialog';
-import {SubmitDialog} from './app.component';
 import {MatTableModule} from '@angular/material/table';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    SubmitDialog
   ],
   imports: [
     BrowserModule,
@@ -33,7 +31,7 @@ import {MatTableModule} from '@angular/material/table';
     MatDialogModule,
     MatTableModule
   ],
-  entryComponents: [SubmitDialog],
+  entryComponents: [],
   providers: [],
   bootstrap: [AppComponent]
 })
