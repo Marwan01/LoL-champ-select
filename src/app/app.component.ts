@@ -1,5 +1,6 @@
 import {Component, Inject, ViewChild} from '@angular/core';
 import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material/dialog';
+import {MatTableDataSource} from '@angular/material/table';
 import data from './../assets/data.json';
 import {FormControl} from '@angular/forms';
 import {Observable} from 'rxjs';
@@ -23,9 +24,6 @@ const ELEMENT_DATA: CounterItem[] = [
   {position: 9, icon: 'http://ddragon.leagueoflegends.com/cdn/8.24.1/img/champion/Ivern.png', name: "Ivern"}
 ];
 
-let CHAMP_DATA: CounterItem[] = [
-  {position: 1, icon: 'http://ddragon.leagueoflegends.com/cdn/8.24.1/img/champion/Fiora.png', name: "test guy"}
-]
 
 @Component({
   selector: 'app-root',
@@ -35,12 +33,14 @@ let CHAMP_DATA: CounterItem[] = [
 
 
 export class AppComponent {
+  CHAMP_DATA: CounterItem[] = []
   stateCtrl = new FormControl();
   filteredChamps: Observable<any>;
   champions = data;
   enemyChamp: string;
+
   displayedColumns: string[] = ['position', 'icon', 'name'];
-  
+  dataSource = new MatTableDataSource(this.CHAMP_DATA);
 
   constructor() {
     this.filteredChamps = this.stateCtrl.valueChanges
@@ -58,23 +58,30 @@ export class AppComponent {
   }
 
   selectedEnemy : string;
-  dataSource = ELEMENT_DATA;
 
   getCounters(champName) {
-    let counterItem : CounterItem;
     this.enemyChamp = champName;
     data.forEach(element => {
       if( element.name === this.enemyChamp ) {
+        let counterItem : CounterItem;
         let counterNames = element.counters;
+        let i = 1;
         counterNames.forEach(e => {
           data.forEach(e2 => {
             if(e === e2.name) {
-              console.log(e2.icon)
+              counterItem = {
+                position: i++,
+                name: e,
+                icon: e2.icon
+              }
+              return this.CHAMP_DATA.push(counterItem)
             }
           });
         });
+        // this.CHAMP_DATA.sort(function(a: any, b: any){return a - b})
+        this.dataSource._updateChangeSubscription();
       }
     });
-  }
 
+  }
 }
