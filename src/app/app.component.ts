@@ -5,13 +5,13 @@ import {FormControl} from '@angular/forms';
 import {Observable} from 'rxjs';
 import {map, startWith} from 'rxjs/operators';
 
-export interface CounterTable {
+export interface CounterItem {
   icon: string;
   position: number;
   name: String;
 }
 
-const ELEMENT_DATA: CounterTable[] = [
+const ELEMENT_DATA: CounterItem[] = [
   {position: 1, icon: 'http://ddragon.leagueoflegends.com/cdn/8.24.1/img/champion/Fiora.png', name: "Fiora"},
   {position: 2, icon: 'http://ddragon.leagueoflegends.com/cdn/8.24.1/img/champion/Fizz.png', name: "Fizz" },
   {position: 3, icon: 'http://ddragon.leagueoflegends.com/cdn/8.24.1/img/champion/Ivern.png', name: "Ivern"},
@@ -23,6 +23,10 @@ const ELEMENT_DATA: CounterTable[] = [
   {position: 9, icon: 'http://ddragon.leagueoflegends.com/cdn/8.24.1/img/champion/Ivern.png', name: "Ivern"}
 ];
 
+let CHAMP_DATA: CounterItem[] = [
+  {position: 1, icon: 'http://ddragon.leagueoflegends.com/cdn/8.24.1/img/champion/Fiora.png', name: "test guy"}
+]
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -32,14 +36,14 @@ const ELEMENT_DATA: CounterTable[] = [
 
 export class AppComponent {
   stateCtrl = new FormControl();
-  filteredStates: Observable<any>;
+  filteredChamps: Observable<any>;
   champions = data;
   enemyChamp: string;
   displayedColumns: string[] = ['position', 'icon', 'name'];
   
 
   constructor() {
-    this.filteredStates = this.stateCtrl.valueChanges
+    this.filteredChamps = this.stateCtrl.valueChanges
       .pipe(
         startWith(''),
         map(state => state ? this._filterStates(state) : this.champions.slice())
@@ -57,8 +61,20 @@ export class AppComponent {
   dataSource = ELEMENT_DATA;
 
   getCounters(champName) {
+    let counterItem : CounterItem;
     this.enemyChamp = champName;
-    console.log(this.enemyChamp);
+    data.forEach(element => {
+      if( element.name === this.enemyChamp ) {
+        let counterNames = element.counters;
+        counterNames.forEach(e => {
+          data.forEach(e2 => {
+            if(e === e2.name) {
+              console.log(e2.icon)
+            }
+          });
+        });
+      }
+    });
   }
 
 }
