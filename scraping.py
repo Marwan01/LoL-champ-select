@@ -12,11 +12,15 @@ champions_list = soup.find(class_='champions')
 champions_links = champions_list.find_all('a')
 for champion in champions_links:
     champ_name = regex.sub('', champion.text)
-    data.append({"name":champ_name})
+    if champ_name == "Sylas":
+        print(champ_name)
+    else:
+        data.append({"name":champ_name})
 
 for el in tqdm(data):
     name = el["name"]
-    
+    if name == "Sylas":
+        pass
     url = url='https://lolcounter.com/champions/'+name
     page = requests.get(url)
     soup = BeautifulSoup(page.text, 'html.parser')
@@ -29,6 +33,8 @@ for el in tqdm(data):
         a = regex.sub('', strong.text)
         STRONGS.append(a)
     el["strongagainst"]=STRONGS
+    el["strongagainst"] = el["strongagainst"][:10]
+    
     
     COUNTERS=[]
     COUNTERS_list = soup.find(class_='weak-block')
@@ -37,13 +43,18 @@ for el in tqdm(data):
         a = regex.sub('', counter.text)
         COUNTERS.append(a)
     el["counters"]=COUNTERS
+    el["counters"] = el["counters"][:10]
     
-    icon_url = str(soup.find(class_ = 'left champ-img'))
+    
+    ch_block = soup.find(class_ = 'champ-block')
+    icon_url = str(ch_block.find(class_ = 'left champ-img'))
     beg = icon_url.rfind("url")+4
     end = icon_url.rfind("png")+3
     el['icon']=icon_url[beg:end]
     icon_url = requests.get(el['icon'])
-    assert icon_url.status_code == 200
+    assert icon_url.status_code == 200    
+    
+    
     
     TIPS=[]
     TIPS_list = soup.find(class_='champ-tips')
