@@ -104,6 +104,6 @@ for el in tqdm(data):
         KEYS.append(key2.text[:-2].lower().replace(" ","_"))
     STATS= dict(zip(KEYS,VALUES))
     el["stats"] = STATS
-with open('test.json', 'w') as fp:
+with open('src/assets/data.json', 'w') as fp:
     json.dump(data, fp)
 print("DONE")
