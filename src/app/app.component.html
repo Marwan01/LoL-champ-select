@@ -9,7 +9,7 @@
 
     <form class="example-form">
         <mat-form-field class="example-full-width">
-          <input matInput placeholder="Champion" aria-label="State" [matAutocomplete]="auto" [formControl]="stateCtrl">
+          <input matInput placeholder="Champion" aria-label="State" [matAutocomplete]="auto" [formControl]="stateCtrl" (change)="clear()" onClick="{this.select();this.CHAMP_DATA=[]}"> 
           <mat-autocomplete #auto="matAutocomplete" (optionSelected)="getCounters($event.option.value)">
             <mat-option  *ngFor="let state of filteredChamps | async" [value]="state.name">
               <img class="example-option-img" aria-hidden [src]="state.icon" height="25">

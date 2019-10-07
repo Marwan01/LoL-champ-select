@@ -12,25 +12,11 @@ export interface CounterItem {
   name: String;
 }
 
-const ELEMENT_DATA: CounterItem[] = [
-  {position: 1, icon: 'http://ddragon.leagueoflegends.com/cdn/8.24.1/img/champion/Fiora.png', name: "Fiora"},
-  {position: 2, icon: 'http://ddragon.leagueoflegends.com/cdn/8.24.1/img/champion/Fizz.png', name: "Fizz" },
-  {position: 3, icon: 'http://ddragon.leagueoflegends.com/cdn/8.24.1/img/champion/Ivern.png', name: "Ivern"},
-  {position: 4, icon: 'http://ddragon.leagueoflegends.com/cdn/8.24.1/img/champion/Fiora.png', name: "Fiora"},
-  {position: 5, icon: 'http://ddragon.leagueoflegends.com/cdn/8.24.1/img/champion/Fizz.png', name: "Fizz"},
-  {position: 6, icon: 'http://ddragon.leagueoflegends.com/cdn/8.24.1/img/champion/Ivern.png', name: "Ivern"},
-  {position: 7, icon: 'http://ddragon.leagueoflegends.com/cdn/8.24.1/img/champion/Fiora.png', name: "Fiora"},
-  {position: 8, icon: 'http://ddragon.leagueoflegends.com/cdn/8.24.1/img/champion/Fizz.png', name: "Fizz"},
-  {position: 9, icon: 'http://ddragon.leagueoflegends.com/cdn/8.24.1/img/champion/Ivern.png', name: "Ivern"}
-];
-
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-
 
 export class AppComponent {
   CHAMP_DATA: CounterItem[] = []
@@ -57,7 +43,10 @@ export class AppComponent {
     
   }
 
-  selectedEnemy : string;
+  clear() {
+    this.CHAMP_DATA = [];
+    this.dataSource = new MatTableDataSource(this.CHAMP_DATA);
+  }
 
   getCounters(champName) {
     this.enemyChamp = champName;
@@ -78,7 +67,6 @@ export class AppComponent {
             }
           });
         });
-        // this.CHAMP_DATA.sort(function(a: any, b: any){return a - b})
         this.dataSource._updateChangeSubscription();
       }
     });
