@@ -1,16 +1,14 @@
-# ChampSelect
+# LoL-champ-select
+
+Clean and easy to use Angular application for League of Legends players that allows you to pick a champion from an auto-complete field andquickly get the counters for that champion.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.0.
 
-## Development server
+## To Start: 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm start`
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
+## Build:
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
@@ -22,16 +20,16 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+## Tools used:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Counter data was fetched from https://lolcounter.com/champions using `scraping.py` script that you can find in the root folder of the repo.
 
+ <strong>Screenshot:</strong>
+ <br>
+ ### LoL-champ-select 
 
-Fetch champion counter data from https://lolcounter.com/champions/"champ_name"
+![Screenshot](/src/assets/app.png)
 
-possibly from here too: https://na.leagueoflegends.com/en/game-info/champions/
+### lolcounter.com
 
-http://ddragon.leagueoflegends.com/cdn/6.24.1/data/en_US/champion.json
-
-read json: 
-https://www.angularjswiki.com/angular/how-to-read-local-json-files-in-angular/
+![Screenshot](/src/assets/lolcounter.png)
