@@ -1,4 +1,3 @@
-
 git add .
 git commit -m "deploy script"
 git push
