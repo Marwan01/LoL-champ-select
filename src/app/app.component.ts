@@ -1,16 +1,15 @@
 import {Component, Inject, ViewChild} from '@angular/core';
 import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material/dialog';
-import {SelectEnemyComponent} from './select-enemy/select-enemy.component';
-import data from './../assets/test.json';
+import {MatTableDataSource} from '@angular/material/table';
+import data from './../assets/data.json';
+import {FormControl} from '@angular/forms';
+import {Observable} from 'rxjs';
+import {map, startWith} from 'rxjs/operators';
 
-export interface DialogData {
-  enemyChamp: string;
-  counters: string[];
-  bestPick: string;
-  bestPickIcon: string;
-  enemyChampTips: string[];
-  description: string;
-  // add stats
+export interface CounterItem {
+  icon: string;
+  position: number;
+  name: String;
 }
 
 @Component({
@@ -18,63 +17,59 @@ export interface DialogData {
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
+  CHAMP_DATA: CounterItem[] = []
+  stateCtrl = new FormControl();
+  filteredChamps: Observable<any>;
   champions = data;
-  selectedEnemy : string;
-  @ViewChild(SelectEnemyComponent, {static: true}) enemy: SelectEnemyComponent;
+  enemyChamp: string;
 
+  displayedColumns: string[] = ['position', 'icon', 'name'];
+  dataSource = new MatTableDataSource(this.CHAMP_DATA);
 
-  constructor(public dialog: MatDialog) {}
+  constructor() {
+    this.filteredChamps = this.stateCtrl.valueChanges
+      .pipe(
+        startWith(''),
+        map(state => state ? this._filterStates(state) : this.champions.slice())
+      );
+  }
 
-  openDialog(): void {
-    this.selectedEnemy = this.enemy.enemy;
-    let counters: string[];
-    let enemyChampTips: string[];
-    let bestPickName: string;
-    this.champions.forEach(element => {
-      if(element.name === this.selectedEnemy) {
-        counters = element.counters;
-        enemyChampTips = element.tips;
-        bestPickName = element.counters[0];
+  private _filterStates(value: string) {
+    const filterValue = value.toLowerCase();
+    this.enemyChamp = value;
+    return this.champions.filter(state => state.name.toLowerCase().indexOf(filterValue) === 0);
+    
+  }
+
+  clear() {
+    this.CHAMP_DATA = [];
+    this.dataSource = new MatTableDataSource(this.CHAMP_DATA);
+  }
+
+  getCounters(champName) {
+    this.enemyChamp = champName;
+    data.forEach(element => {
+      if( element.name === this.enemyChamp ) {
+        let counterItem : CounterItem;
+        let counterNames = element.counters;
+        let i = 1;
+        counterNames.forEach(e => {
+          data.forEach(e2 => {
+            if(e === e2.name) {
+              counterItem = {
+                position: i++,
+                name: e,
+                icon: e2.icon
+              }
+              return this.CHAMP_DATA.push(counterItem)
+            }
+          });
+        });
+        this.dataSource._updateChangeSubscription();
       }
     });
-    let bestPick = this.findChamp(bestPickName); // to fix ( dons't work)
-    console.log(bestPickName)
-    const dialogRef = this.dialog.open(SubmitDialog, {
-      width: '50vh',
-      height: '50vh',
-      data: {enemyChamp: this.selectedEnemy, counters: counters, bestPick: bestPickName,  enemyChampTips:  enemyChampTips , bestPickIcon: 'https://ddragon.leagueoflegends.com/cdn/9.18.1/img/champion/Akali.png', description: 'icon and description are currently hardcoded'}
-    });
 
-    dialogRef.afterClosed().subscribe(result => {
-      // console.log('The dialog was closed');
-      // this.name = result;
-    });
   }
-
-  findChamp(champName) {
-    return this.champions.find((e) => {
-      if(e.name === champName) {
-        return e;
-      }
-    })
-  }
-}
-
-
-
-@Component({
-  selector: 'submit-dialog',
-  templateUrl: './submit-dialog.html',
-})
-export class SubmitDialog {
-
-  constructor(
-    public dialogRef: MatDialogRef<SubmitDialog>,
-    @Inject(MAT_DIALOG_DATA) public data: DialogData) {}
-
-  onNoClick(): void {
-    this.dialogRef.close();
-  }
-
 }
