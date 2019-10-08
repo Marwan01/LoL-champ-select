@@ -4,7 +4,7 @@ Simple mobile friendly Angular app designed for League of Legends players to use
 
 [![MIT License][license-badge]][license]
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-[![PRs Welcome][prs-badge]][prs]
+[![PRs Welcome][prs-badge]][prs]]
 
 [try it here.](http://lol-champ-select.s3-website-us-east-1.amazonaws.com/)
 
