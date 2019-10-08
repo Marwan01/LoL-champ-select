@@ -2,12 +2,14 @@
 
 Simple mobile friendly Angular app designed for League of Legends players to use during champion selection. It allows you to pick a champion, and to quickly get who counters them, according to the most updated champion data on the web.
 
-
+<br>
 [try it here.](http://lol-champ-select.s3-website-us-east-1.amazonaws.com/)
+<br>
+## What It Looks Like
 
 ![](/src/assets/media/usage.gif)
 
-## How This Works
+## How It Works
 
 In order to achieve great speed, the rendering of the champions counter data is done using a json file called `data.json` that is located within the project assets. However, we keep our data up to date by continuously running a python script that scrapes https://lolcounter.com/ for new counter data. Here is how this is automated using AWS
 
@@ -21,11 +23,11 @@ lol-scrapy is an [AWS Lambda](https://aws.amazon.com/lambda/) that executes a py
 
 ## Run Locally 
 
-Clone this Repository `git clone https://github.com/Marwan01/LoL-champ-select.git`
-Go to the cloned Repo `cd LoL-champ-select`
-Install Dependencies `npm install`
-Run `npm start`
-On your browser, go to `http://localhost:4200`
+Clone this Repository <br>`git clone https://github.com/Marwan01/LoL-champ-select.git` <br>
+Go to the cloned Repo `cd LoL-champ-select` <br>
+Install Dependencies `npm install` <br>
+Run `npm start` <br>
+On your browser, go to `http://localhost:4200` 
 
 ## Build & Deploy
 
