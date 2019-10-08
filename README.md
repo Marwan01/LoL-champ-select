@@ -5,7 +5,7 @@ Simple mobile friendly Angular app designed for League of Legends players to use
 
 [try it here.](http://lol-champ-select.s3-website-us-east-1.amazonaws.com/)
 
-![](usage.gif)
+![](/src/assets/media/usage.gif)
 
 ## How This Works
 
@@ -13,7 +13,7 @@ In order to achieve great speed, the rendering of the champions counter data is 
 
 ### Lambda Design
 
-![Screenshot](/src/assets/aws.png)
+![Screenshot](/src/assets/media/aws.png)
 
 ### Explanation
 
@@ -50,10 +50,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
  ### LoL-champ-select 
 
-![Screenshot](/src/assets/app.png)
+![Screenshot](/src/assets/media/app.png)
 
 ### lolcounter
 
-![Screenshot](/src/assets/lolcounter.png)
+![Screenshot](/src/assets/media/lolcounter.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.0.
