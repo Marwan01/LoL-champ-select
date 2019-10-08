@@ -5,6 +5,8 @@ Simple mobile friendly Angular app designed for League of Legends players to use
 
 [try it here.](http://lol-champ-select.s3-website-us-east-1.amazonaws.com/)
 
+![](usage.gif)
+
 ## How This Works
 
 In order to achieve great speed, the rendering of the champions counter data is done using a json file called `data.json` that is located within the project assets. However, we keep our data up to date by continuously running a python script that scrapes https://lolcounter.com/ for new counter data. Here is how this is automated using AWS
