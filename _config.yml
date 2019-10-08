@@ -1,2 +1,6 @@
 theme: jekyll-theme-cayman
 show_downloads: true
+title: [LoL Champ Select]
+github:
+  repository_url: https://github.com/Marwan01/LoL-champ-select
+  another_url: http://lol-champ-select.s3-website-us-east-1.amazonaws.com/
