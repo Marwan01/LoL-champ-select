@@ -5,9 +5,12 @@ Simple mobile friendly Angular app designed for League of Legends players to use
 
 [try it here.](http://lol-champ-select.s3-website-us-east-1.amazonaws.com/)
 
+
+## What It Looks Like
+
 ![](/src/assets/media/usage.gif)
 
-## How This Works
+## How It Works
 
 In order to achieve great speed, the rendering of the champions counter data is done using a json file called `data.json` that is located within the project assets. However, we keep our data up to date by continuously running a python script that scrapes https://lolcounter.com/ for new counter data. Here is how this is automated using AWS
 
@@ -21,11 +24,11 @@ lol-scrapy is an [AWS Lambda](https://aws.amazon.com/lambda/) that executes a py
 
 ## Run Locally 
 
-Clone this Repository `git clone https://github.com/Marwan01/LoL-champ-select.git`
-Go to the cloned Repo `cd LoL-champ-select`
-Install Dependencies `npm install`
-Run `npm start`
-On your browser, go to `http://localhost:4200`
+Clone this Repository <br>`git clone https://github.com/Marwan01/LoL-champ-select.git` <br>
+Go to the cloned Repo `cd LoL-champ-select` <br>
+Install Dependencies `npm install` <br>
+Run `npm start` <br>
+On your browser, go to `http://localhost:4200` 
 
 ## Build & Deploy
 
@@ -46,13 +49,13 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 * AWS: S3, Lambda, CloudWatch to allow the hosting of the app, and the updating of the data.
 
 
- <strong>Screenshots</strong>
+ **ScreenShots**
 
- ### LoL-champ-select 
+ ### LoLchampselect 
 
 ![Screenshot](/src/assets/media/app.png)
 
-### lolcounter
+### Lolcounter
 
 ![Screenshot](/src/assets/media/lolcounter.png)
 
