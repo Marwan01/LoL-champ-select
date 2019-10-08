@@ -1,6 +1,6 @@
 # LoL-champ-select
 
-Simple, mobile friendly Angular app designed for League of Legends players to use during champion selection. It allows you to pick a champion, and to quickly get who counters them, according to the most updated champion data on the web. 
+Simple mobile friendly Angular app designed for League of Legends players to use during champion selection. It allows you to pick a champion, and to quickly get who counters them, according to the most updated champion data on the web. 
 
 
 ## How This Works
@@ -27,21 +27,22 @@ On your browser, go to `http://localhost:4200`
 
 Run `sh deploy.sh` to execute the deploy script which commits and pushes your changes to Github, creates a production build, and uploads the result to your S3 bucket.
 
-## Running unit tests
+## Running Unit Tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Running e2e Tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Tools used:
+## Tools Used
 
-Angular 8: Simple and fast front-end framework.
-Python: Counter data was fetched from https://lolcounter.com/champions using `scrapy.py`.
-AWS: S3, Lambda, CloudWatch to allow the hosting of the app, and the updating of the data.
+* Angular 8: Simple and fast front-end framework.
+* Python: Counter data was fetched from https://lolcounter.com/champions using `scrapy.py`.
+* AWS: S3, Lambda, CloudWatch to allow the hosting of the app, and the updating of the data.
 
- <strong>Screenshot:</strong>
+
+ <strong>Screenshots</strong>
 
  ### LoL-champ-select 
 
