@@ -49,9 +49,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 * AWS: S3, Lambda, CloudWatch to allow the hosting of the app, and the updating of the data.
 
 
- <strong>Screenshots</strong>
+ **ScreenShots**
 
- ### LoL-champ-select 
+ ### LoLchampselect 
 
 ![Screenshot](/src/assets/media/app.png)
 
