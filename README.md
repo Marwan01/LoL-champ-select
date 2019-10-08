@@ -5,6 +5,7 @@ Simple mobile friendly Angular app designed for League of Legends players to use
 <br>
 [try it here.](http://lol-champ-select.s3-website-us-east-1.amazonaws.com/)
 <br>
+
 ## What It Looks Like
 
 ![](/src/assets/media/usage.gif)
@@ -54,7 +55,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ![Screenshot](/src/assets/media/app.png)
 
-### lolcounter
+### Lolcounter
 
 ![Screenshot](/src/assets/media/lolcounter.png)
 
