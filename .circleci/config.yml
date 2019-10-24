@@ -30,9 +30,9 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run tests
-      - run: 
-          name: Unit Testing
-          command: npm test -- --no-watch --no-progress --browsers=ChromeHeadlessCI
+      # - run: 
+      #     name: Unit Testing
+      #     command: npm test -- --no-watch --no-progress --browsers=ChromeHeadlessCI
 
       # build 
       - run: 
