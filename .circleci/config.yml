@@ -22,14 +22,24 @@ jobs:
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
 
-      - run: yarn install
+      - run: npm install
 
       - save_cache:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
-      # run tests!
+      # run tests
       - run: 
           name: Unit Testing
-          command: run test -- --no-watch --no-progress --browsers=ChromeHeadlessCI
+          command: npm test -- --no-watch --no-progress --browsers=ChromeHeadlessCI
+
+      # build 
+      - run: 
+          name: Build
+          command: npm build
+
+      # Deploy 
+      - run: 
+          name: Deploy to S3 dev (lol-champ-select)
+          command: aws s3 cp ./dist/ChampSelect s3://lol-champ-select --recursive --acl public-read
