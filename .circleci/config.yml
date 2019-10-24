@@ -41,6 +41,6 @@ jobs:
           command: npm run-script build
 
       # Deploy 
-      - run: 
-          name: Deploy to S3 dev (lol-champ-select)
-          command: aws s3 cp ./dist/ChampSelect s3://lol-champ-select --recursive --acl public-read
+      # - run: 
+      #     name: Deploy to S3 dev (lol-champ-select)
+      #     command: aws s3 cp ./dist/ChampSelect s3://lol-champ-select --recursive --acl public-read
