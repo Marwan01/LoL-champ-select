@@ -38,7 +38,7 @@ jobs:
       # build 
       - run: 
           name: Build
-          command: npm run-script build
+          command: npm run-script build --prod
 
       # Deploy 
       # - run: 
